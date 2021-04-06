@@ -17,7 +17,7 @@ repository               : "ZYChimne/ZYChimne.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -83,7 +83,7 @@ author:
   name             : "ZYChimne"
   avatar           : "profile.jpg"
   bio              : "Computer Science, Wuhan University, China"
-  location         : "Wuhan, CHina"
+  location         : "Wuhan, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
