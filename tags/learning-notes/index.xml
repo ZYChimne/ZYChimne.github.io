@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>learning notes on ZYChimne</title><link>https://zychimne.github.io/tags/learning-notes/</link><description>Recent content in learning notes on ZYChimne</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zychimne.github.io/tags/learning-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Golang Essentials</title><link>https://zychimne.github.io/posts/golang-essentials/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/golang-essentials/</guid><description/></item><item><title>Natural Language Processing Basics</title><link>https://zychimne.github.io/posts/natural-language-processing-basics/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/natural-language-processing-basics/</guid><description>&lt;h2 id="how-to-define-the-meaning-of-a-word">How to define the meaning of a word&lt;/h2>
+&lt;h3 id="one-hot-vector">One-Hot Vector&lt;/h3>
+&lt;p>Say we have 3 word, &amp;ldquo;natural&amp;rdquo;, &amp;ldquo;language&amp;rdquo;, &amp;ldquo;processing&amp;rdquo;, we can define:&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;nature&amp;rdquo;=[1, 0, 0],&lt;/li>
+&lt;li>&amp;ldquo;language&amp;rdquo;=[0, 1, 0],&lt;/li>
+&lt;li>&amp;ldquo;processing&amp;rdquo;=[0, 0, 1]&lt;/li>
+&lt;/ul>
+&lt;h4 id="cons">Cons:&lt;/h4>
+&lt;ul>
+&lt;li>With the increase of the words, the dimension of the vectors grows rapidly.&lt;/li>
+&lt;li>Any vector timing another vector equals 0, we cannot use cosine to measure their similarity.&lt;/li>
+&lt;/ul>
+&lt;h3 id="word2vec">Word2Vec&lt;/h3>
+&lt;p>The basic theory is that we can know the meanning of a word from the words beside them.&lt;/p>
+&lt;h4 id="skip-gram-model">Skip-Gram Model&lt;/h4>
+&lt;p>Say we have a phrase &amp;ldquo;natural language processing&amp;rdquo;, take &amp;ldquo;language&amp;rdquo; as a central word then we have:
+P(&amp;ldquo;natural&amp;rdquo;) = P(&amp;ldquo;natural&amp;rdquo;|&amp;ldquo;language&amp;rdquo;)
+P(&amp;ldquo;processing&amp;rdquo;)=P(&amp;ldquo;processing&amp;rdquo;|&amp;ldquo;language&amp;rdquo;)
+Generally, we have
+$$
+P(Context Word = o| Center Word = c) = \frac{e^{(u_o^Tv_c)}}{\sum\nolimits_{w\in{Vocab}}e^{(u_w^Tv_c)}}
+$$
+Loss function would be
+$$
+J(\theta) = -\frac{1}{T}logL(\theta) = -\frac{1}{T}\sum_{t=1}^T\sum_{-m\leq j\leq m&amp;amp;j\neq0}logP(w_{t+j}|w_t; \theta)
+$$
+Note that $L(\theta)$ is the maximum likelihood function.&lt;/p>
+&lt;h3 id="single-value-decomposition">Single Value Decomposition&lt;/h3>
+&lt;p>We use a word-to-document co-occurrence matrix.
+Say we have two sentences, and the window size = 1.
+I like deep learning.
+I like natural language processing.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>I&lt;/th>
+&lt;th>like&lt;/th>
+&lt;th>deep&lt;/th>
+&lt;th>learning&lt;/th>
+&lt;th>natural&lt;/th>
+&lt;th>language&lt;/th>
+&lt;th>processing&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>like&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>deep&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>learning&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>natural&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>language&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>processing&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Then we can compress the matrix and store the vectors.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="glove">GloVe&lt;/h3>
+&lt;p>As its name suggests, GloVe uses global information to build vectors.
+$X_{ij}$ means how many times word j has shown up in the context of word i, then $X_i = \sum_kX_{ik}$ means all the words showing up in the context of word i. The probility of word j showing up in the context of word i is denoted as
+$$
+P_{ij} = P(j|i) = X_{ij} / X_i
+$$
+Loss Function:
+$$
+w_i * w_j = logP(i|j)
+$$
+$$
+J = \sum_{i, j = 1}^Vf(X_{ij})(w_i^T\tilde{w_j} + b_i + \tilde{b_j} - logX_{ij})^2
+$$&lt;/p>
+&lt;h2 id="named-entity-recognition">Named Entity Recognition&lt;/h2>
+&lt;p>We want to find the names in the text and classfy them, for example:&lt;br>
+Only France [LOC] and Britain [LOC] back Fischler [PER] &amp;rsquo;s proposal.&lt;/p>
+&lt;h3 id="window-classification">Window Classification&lt;/h3>
+&lt;p>We can use the words beside the target word to classify it.&lt;br>
+Say the window size = 2 and the target word is Paris. We can have a window like:&lt;br>
+museum in Paris are amazing&lt;br>
+x1 x2 x3 x4 x5&lt;br>
+$X_{window} = [x_1, x_2, x_3, x_4, x_5]$
+If we have mulitple class, we can use a softmax classifier.&lt;br>
+Say x denotes the input word vector and y is the target class among k classes, then we have
+$$
+P(y|x) = \frac{e^{(W_y&lt;em>x)}}{\sum_{c=1}^ke^{(W_c&lt;/em>x)}}
+$$
+The loss function is a cross entropy function:
+$$
+J(\theta) = \frac{1}{N}\sum_{i = 1}^N-log(\frac{e^{(W_y&lt;em>x)}}{\sum_{c = 1}^ke^{(W_c&lt;/em>x)}})
+$$&lt;/p>
+&lt;h2 id="syntactic-structure-analaysis">Syntactic Structure Analaysis&lt;/h2>
+&lt;h3 id="constituency-parsing">Constituency Parsing&lt;/h3>
+&lt;p>Analyse the words as part of speech [POS], and then connect them as phrases and finally sentences.&lt;br>
+Say we have a phrase like&lt;br>
+the cute cat at the coffee shop&lt;br>
+Its structure is [DET] [ADJ] [NOUN] [PREP] [DET] [NOUN], and Noun Phrase = { [DET] [ADJ] [NOUN] }, Preposition Phrase = { [PREP] [DET] [NOUN] }, and they together make a sentence.&lt;/p>
+&lt;h3 id="dependency-parsing">Dependency Parsing&lt;/h3>
+&lt;h4 id="transition-based-dependency-parsing">Transition-based Dependency Parsing&lt;/h4>
+&lt;p>Transition-based dependency parsing is very similar to a state machine, for a given sentence $S = {w_0w_1\cdots w_n}$, the state has three parts, $(\sigma, \beta, A)$.&lt;br>
+$\sigma$ is a stack of words.&lt;br>
+$\beta$ is a buffer of words.&lt;br>
+A is a collection of dependency arc, every edge is like $(w_i, r, w_j)$, and r denotes the dependency between words.&lt;br>
+At the initial state, $\sigma$ contains ROOT $w_0$ only, and $\beta$ contains the rest of the sentence, while A is an empty set.&lt;br>
+There are 3 transition between states:&lt;/p>
+&lt;ul>
+&lt;li>SHIFT: pop the first word out of the buffer and put it in the stack.&lt;/li>
+&lt;li>LEFT-ARC: add $(w_j, r, w_i)$ to the collection of edges, and $w_j$ is on the top of the stack while $w_i$ is the second top one of the stack.&lt;/li>
+&lt;li>RIGHT-ARC: add $(w_i, r, w_j)$ to the collection of edges, and $w_i$ is on the top of the stack while $w_j$ is the second top one of the stack.&lt;/li>
+&lt;/ul>
+&lt;h2 id="language-model">Language Model&lt;/h2>
+&lt;p>The model is about :&lt;br>
+Given {$x_1, x_2, \cdots, x_n$}, predict $x_{n+1}$.
+$$
+P(x^{t + 1}, x^t, \cdots, x^1) = \sum_{t = 1}^TP(x^{t+1} | x^t, \cdots, x^1)
+$$&lt;/p>
+&lt;h3 id="n-gram-model">N-Gram Model&lt;/h3>
+&lt;p>The most classic one is the N-Gram Model. For example, the bigram of &amp;ldquo;natural language processing&amp;rdquo; is &amp;ldquo;natural language&amp;rdquo; and &amp;ldquo;language processing&amp;rdquo;.&lt;br>
+The basic assumption of the model is that&lt;/p>
+&lt;ul>
+&lt;li>the probability of n-gram is propotional to the probability of the word.&lt;/li>
+&lt;li>$P(x^{t + 1})$ is only related to the (n - 1) word before it.
+$$
+P(x^{t + 1} | x^t, \cdots, x^1) \approxeq \frac{count(x^{t + 1}, x^t, \cdots, x^{t - n + 2})}{count(x^t, \cdots, x^{t - n + 2})}
+$$
+Cons:&lt;/li>
+&lt;li>Sparsity Problem&lt;/li>
+&lt;li>The storage grows very fast as the n grows.&lt;/li>
+&lt;/ul>
+&lt;h3 id="recurrent-neural-network">Recurrent Neural Network&lt;/h3>
+&lt;p>In a RNN, different parameters share a same matrix, and they are not limited to a fixed size window.&lt;br>
+Hidden Layer:
+$$
+h_t = \sigma(W^{(hh)}h_{t - 1} + W^{ht}x_{[t]})
+$$
+Output:
+$$
+\hat{y_t} = softmax(W^{(S)}h_t)
+$$
+The loss function is cross entropy loss.&lt;br>
+We can use perplexity to evalute our language model.
+$$
+perplexity = e^{J(\theta)}
+$$
+Pros:&lt;/p>
+&lt;ul>
+&lt;li>It can deal with input of any length.&lt;/li>
+&lt;li>We can use information with a long history.&lt;/li>
+&lt;li>The size of the model does not increase with input size.&lt;/li>
+&lt;li>The parameters of weights are shared efficiently.
+Cons:&lt;/li>
+&lt;li>RNN is comparatively slow because it is not parallel.&lt;/li>
+&lt;li>Gradient vanishing makes long history information hard to capture.&lt;/li>
+&lt;/ul>
+&lt;h2 id="gradient-vanishing-and-gradient-explosion">Gradient Vanishing and Gradient Explosion&lt;/h2>
+&lt;p>In $W^{(t - k)}$, if |W| is smaller than 1, as t - k incrrases, W is likely to become very small so it is very likely for us to loss information from the past.
+In the opposite, if |W| is greater than 1, as t - k incrrases, W is likely to become very large and cause explosion.&lt;/p>
+&lt;h3 id="gradient-clipping">Gradient clipping&lt;/h3>
+&lt;p>If the gradient is greater than the preset threshold, we clip the gradient.&lt;/p>
+&lt;h2 id="long-short-term-memory-lstm">Long Short Term Memory (LSTM)&lt;/h2>
+&lt;p>We introduce cell states to store the long-term information, and they can be written and erased by control gate.
+A general LSTM:
+Input gate
+$$
+i_t = \sigma(W^{(i)}x_t + U^{(i)}h_{t - 1})
+$$
+Forget gate
+$$
+f_t = \sigma(W^{(f)}x_t + U^{(f)}h_{t - 1})
+$$
+Output gate
+$$
+o_t = \sigma(W^{(o)}x_t + U^{(o)}h_{t - 1})
+$$
+New memory cell
+$$
+\tilde{c_t} = tanh(W^{(c)}x_t + U^{(c)}h_{t - 1})
+$$
+Final memory cell
+$$
+c_t = f_t\circ c_{t - 1} + i_t\circ \tilde{c_t}
+$$
+Hidden state
+$$
+h_t = o_t\circ tanh(c_t)
+$$
+Gated Recurrent Unit (GRU)
+GRU is very similar to LSTM, it combines forget gate and input gate into an update gate, and the cell state is combined into hidden state.
+Update gate
+$$
+z_t = \sigma(W^{(z)}x_t + U^{(z)}h_{t - 1})
+$$
+Reset gate
+$$
+r_t = \sigma(W^{(r)}x_t + U^{(r)}h_{t - 1})
+$$
+New memory cell
+$$
+\tilde{h_t} = tanh(r_t\circ Uh_{t - 1} + Wx_t)
+$$
+Hidden state
+$$
+h_t = (1 - z_t)\circ \tilde{h_t} + z_t\circ h{t - 1}
+$$&lt;/p>
+&lt;h2 id="neural-machine-translation">Neural Machine Translation&lt;/h2>
+&lt;p>Neural machine translation is generally a sequence to sequence model. It uses RNN as an encoder and another RNN as a decoder.&lt;br>
+Loss function:
+$$
+J(\theta) = \frac{1}{T}\sum_{t = 1}^T-log\tilde{y_{x_{t + 1}}^{(t)}}
+$$
+We choose the word with highest probability as the next input of the decoder.&lt;/p>
+&lt;h3 id="bilingual-evaluation-study-bleu">Bilingual Evaluation Study (BLEU)&lt;/h3>
+&lt;p>Presion score: $p_n = \frac{# matched n-grams}{# n-grams in the candidate translation}$
+Weight: $w = \frac{1}{2^n}$
+Penalty: $\beta = e^{min(0, 1 - \frac{len_{ref}}{len_{MT}})}$
+BLEU:
+$$
+BLEU = \beta\prod_{i = 1}^kp_n^{w_n}
+$$&lt;/p>
+&lt;h3 id="attention">Attention&lt;/h3>
+&lt;p>We can use the attention method to focus on the specific context of the current word.&lt;/p>
+&lt;h4 id="process">Process:&lt;/h4>
+&lt;ul>
+&lt;li>Get the hidden states of the encoder $(h_1, h_2, h_T)$.&lt;/li>
+&lt;li>Say the hidden state of the current decoder is $s_{t - 1}, we can use it for the relationship between input index j and current output index. $e_{ij} = a(s_{t - 1}, h_j)$, in the form of the vector is $\vec{e_t} = (a(s_{t - 1}, h_1), \cdots, a(s_{t - 1}, h_T))$, a denotes a relationship operation between s and h.&lt;/li>
+&lt;li>Compute the attention by softmaxing $\vec{e_t}$: $\vec{a_t} = softmax(\vec{e_t})$&lt;/li>
+&lt;li>Compute the context vector: $\vec{c_t} = \sum_{j =1}^Ta_{ij}h_j$&lt;/li>
+&lt;li>Finally, we have the next hidden state of the decoder in the form $s_t = f(s_{t - 1}, y_{t - 1}, c_t)$, and the ouput would be $p(y_t|y_1, \cdots, y_{t - 1}, \vec{x}) = g(y_{i - 1}, s_i, c_i)$.&lt;/li>
+&lt;/ul>
+&lt;h2 id="question-answering-system">Question Answering System&lt;/h2>
+&lt;p>We use the Stanford Question Answering Dataset.&lt;/p>
+&lt;h3 id="stanford-attention-reader">Stanford Attention Reader&lt;/h3>
+&lt;p>We get the features of the questions with a Bidirectional LSTM. For the answers, we can use a Bidirectional LSTM to get the features of every word, and $Attention = (\vec{feature_{q_i}}, \vec{feature_{w_i}})$, so that we can infer the start position and the end position of the answer.&lt;br>
+The loss function is:
+$$
+L = -\sum logP^{start}(a_{start}) - \sum logP^{end}(a_{end})
+$$&lt;/p>
+&lt;h3 id="birectional-attention-flow">Birectional Attention Flow&lt;/h3>
+&lt;p>The attention model here is bidirectional, because we have a query-to-context layer and a context to query layer.&lt;br>
+Similar matrix:
+$$
+S_{ij} = w_{sim}^T[c_i; q_j, c_i \circ q_j]\in R
+$$
+Note that $c_i$, $q_i$ denote context vector and query vector respectively.&lt;br>
+For the context to query attention,&lt;br>
+Attention score:
+$$
+\alpha^i = softmax(S_{i,:})\in R^M \forall i\in{1,\cdots, N}
+$$
+Weighted vector:
+$$
+a_i = \sum_{j = 1}^M\alpha^i_jq_j \in R^{2h} \forall i\in{1,\cdots, N}
+$$
+For the query to context attention,&lt;br>
+$$
+m_i = max_jS_{ij } \in R \forall i\in{1,\cdots, N}
+$$
+$$
+\beta = softmax(m)\in R^N
+$$
+$$
+c&amp;rsquo; = \sum_{i = 1}^N\beta^ic_i \in R^{2h}
+$$
+The output of the Attention Flow Layer would be
+$$
+b_i = [c_i; a_i; c_i\circ a_i; c_i\circ c&amp;rsquo;] \in R^{8h} \forall i \in{1, \cdots, N}
+$$&lt;/p>
+&lt;h2 id="convolutional-neural-network">Convolutional Neural Network&lt;/h2>
+&lt;p>If the embedding of a word is a k-dimensional vector, a sentence is a matrix. With n word, the matrix size is n * k. We usually need to pad the sentence to have a deeper convolutional network.&lt;br>
+The initiative of pooling is the stablize the network, when the input changes little.&lt;/p>
+&lt;h3 id="quasi-recurrent-neural-network">Quasi Recurrent Neural Network&lt;/h3>
+&lt;p>Quaso Recurrent Neural Network is a combination of convolutional neural network and recurrent neural network. The main idea is to use a convolutional neural network to extract features and replace the pooling layer with dynamic average pooling.&lt;br>
+For the feature extraction, the candidate vector, forget gate, output gate is:
+$$
+Z = tanh(W_z * X)
+$$
+$$
+F = \sigma(W_f * X)
+$$
+$$
+O = \sigma(W_o * X)
+$$
+The dynamic average pooling is:
+$$
+x_t = f_t\cdot c_{t - 1} + (1 - f_t)\cdot z_t
+$$
+$$
+h_t = o_t\cdot c_t
+$$&lt;/p>
+&lt;h2 id="subword-model">Subword Model&lt;/h2>
+&lt;h3 id="character-level-model">Character-level model&lt;/h3>
+&lt;p>We can use more layers of convolution, pooling and highway to solve the complexity problem.&lt;/p>
+&lt;h3 id="byte-pair-encoding">Byte Pair Encoding&lt;/h3>
+&lt;p>Byte pair encodes n-grams of the highest frequency until its vocabulary reaches the preset threshold.&lt;/p>
+&lt;h3 id="fastttext">FasttText&lt;/h3>
+&lt;p>It takes a word as bag of character n-gram.&lt;/p>
+&lt;h2 id="contextual-word-representation">Contextual Word Representation&lt;/h2>
+&lt;h3 id="embeddings-from-language-models-elmo">Embeddings from Language Models (ELMO)&lt;/h3>
+&lt;p>ELMO uses a bidirectional LSTM to compute the contextual embedding. The lower layer represents the basic grammar information, while the higher layer represents context information.&lt;br>
+Forward language model:
+$$
+p(t_1, t_2, \cdots, t_N) = \prod_{k = 1}^Np(t_k|t_1, t_2, \cdots, t_{k - 1})
+$$
+Backword language model:
+$$
+p(t_1, t_2, \cdots, t_N) = \prod_{k = 1}^Np(t_k|t_{k + 1}, t_{k + 2}, \cdots, t_N)
+$$
+The initiative of the bidirectional LSTM is to maximaize:
+$$
+\sum_{k + 1}^N(logp(t_k|t_1, t_2, \cdots, t{k - 1}) + logp(t_k|t_{k + 1}, t_{k + 2}, \cdots, t_N))
+$$
+For the word at index k, it is represented by (2L + 1) vectors. One of them is an embedding not related to the context, while L layers of forward LSTM produces $\vec{h_{kj}} related to the former paragraph and L layers of backward LSTM produces $\vec{h_{kj}} for the rest of the paragraph.
+For the following layers, we have:
+$$
+ELMO_k^{task} = E(R_k; \theta^{task}) = \gamma^{task}\sum_{j = 0}^Ls_j^{task}h_{k, j}^{LM}
+$$
+Note that $s^{task}$ is softmaxed and $\gamma^{task}$ is a scale parameter.&lt;/p>
+&lt;h3 id="generative-pre-training-gpt">Generative Pre Training (GPT)&lt;/h3>
+&lt;p>The basic structure of the GPT is a transformer, which is used for unsupervised learning for the text, and then we can use the embedding for supervised fine-tuning for the following tasks.&lt;br>
+Note that it is one direction.&lt;/p>
+&lt;h3 id="bidirectional-encoder-representations-from-transformers">Bidirectional Encoder Representations from Transformers&lt;/h3>
+&lt;p>Bert is especially tuned for:&lt;/p>
+&lt;ul>
+&lt;li>Predict a word with k% missing.&lt;/li>
+&lt;li>Predict a following sentence.&lt;/li>
+&lt;/ul>
+&lt;h3 id="transformer">Transformer&lt;/h3>
+&lt;h4 id="self-attention">Self Attention&lt;/h4>
+&lt;p>We compute the ralationship between words in self attention. The encoder has multiple self-attention layers, after which the input gets the context information for every word. The decoder has a similar structure, but it takes the output of itself and the output of encoder as its input.&lt;/p>
+&lt;h5 id="the-structure-of-self-attention">The Structure of Self Attention&lt;/h5>
+&lt;ul>
+&lt;li>MatMul&lt;/li>
+&lt;li>Scale&lt;/li>
+&lt;li>Mask&lt;/li>
+&lt;li>SoftMax&lt;/li>
+&lt;li>MatMul
+For the encoder, the input is Query, Key and Value, and $d_k$ denotes that dimension of query and vectors.
+$$
+Attention(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V
+$$&lt;/li>
+&lt;/ul>
+&lt;h4 id="the-structure-of-a-transformer">The Structure of a transformer&lt;/h4>
+&lt;ul>
+&lt;li>Positional encoding&lt;/li>
+&lt;li>Multi-Head attention&lt;/li>
+&lt;li>Add &amp;amp; Normalize&lt;/li>
+&lt;li>Feed forward
+Position encoding allows the model to learn about the position of a word in the sentence.&lt;br>
+Multi-head attention contains multiple self-attention layers, and different head may learn different information of the features.&lt;br>
+The Add part is very similar to Residual Connection, which can pass the information of the former layer to the next one.&lt;/li>
+&lt;/ul></description></item></channel></rss>
