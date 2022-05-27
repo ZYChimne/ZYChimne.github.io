@@ -17,7 +17,7 @@ Education
 
 Work Experience
 ======
-* **Android & Front-end Engineering Intern**, Sensetime, *October 2021-July 2022*
+* **Android & Front-end Engineering Intern**, Sensetime, *September 2021-July 2022*
   * Optimized face recognition interface of Vistor System for appointments, and reduce binocular face recognition time by 200% on Vistor Appiontment Machine
   * Developed license examing system of Pyramid SDK, used as the foundation of Central Control System and API for standard Android application in Sensetime
   * Built the core browsing functionality of Big Intelligent Screen with customed webview and worked closely with front-end team and product team on scope of future innovations
