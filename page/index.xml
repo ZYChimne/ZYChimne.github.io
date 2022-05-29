@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on ZYChimne</title><link>https://zychimne.github.io/page/</link><description>Recent content in Pages on ZYChimne</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zychimne.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://zychimne.github.io/about-me/</link><pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/about-me/</guid><description>&lt;h1 id="education">Education&lt;/h1>
 &lt;ul>
-&lt;li>M.S. in Computer Science, Rice University, September 2022-June 2024&lt;/li>
+&lt;li>M.S. in Computer Science, Rice University, August 2022-Jan 2024&lt;/li>
 &lt;li>B.S. in Computer Science, Wuhan University, September 2018-June 2022&lt;/li>
 &lt;/ul>
 &lt;h1 id="work-experience">Work Experience&lt;/h1>
@@ -8,15 +8,16 @@
 &lt;li>
 &lt;p>&lt;strong>Android &amp;amp; Front-end Engineering Intern&lt;/strong>, Sensetime, &lt;em>September 2021-July 2022&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Optimized face recognition interface of Vistor System for appointments, and reduce binocular face recognition time by 200% on Vistor Appiontment Machine&lt;/li>
-&lt;li>Developed license examing system of Pyramid SDK, used as the foundation of Central Control System and API for standard Android application in Sensetime&lt;/li>
-&lt;li>Built the core browsing functionality of Big Intelligent Screen with customed webview and worked closely with front-end team and product team on scope of future innovations&lt;/li>
+&lt;li>Developed Mobile Meeting Room Appointment Platform, which is one of the most used enterprise applications both in the companies and its clients&lt;/li>
+&lt;li>Built Elevator Visualization Application, and it connects information of elevators in the building and offers advice for users&lt;/li>
+&lt;li>Developed license examining system of Pyramid SDK, used as the foundation of Central Control System and API for standard Android application in Sensetime&lt;/li>
+&lt;li>Built the core browsing functionality of Big Intelligent Screen with custom webview and worked closely with front-end team and product team on scope of future innovations&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Computer Graphics Engineering Intern&lt;/strong>, CBIM, &lt;em>August 2021-September 2021&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Develop water graphics (surface, body and waves) and water bank with Vulkan&lt;/li>
+&lt;li>Developed water graphics (surface, body and waves) and water bank with Vulkan&lt;/li>
 &lt;li>Implemented water real-time information synchronization with front-end team&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -32,26 +33,31 @@
 &lt;ul>
 &lt;li>&lt;strong>Researcher&lt;/strong>, WHU IR LAB (Advised by Chenliang Li), &lt;em>September 2020-June 2021&lt;/em>
 &lt;ul>
-&lt;li>Tried to intergrate Entity information in Embedding Layer using Named Entity Information to improve the model information retrieval performance on SQuAD 2.0&lt;/li>
+&lt;li>Tried to intergrade Entity information in Embedding Layer using Named Entity Information to improve the model information retrieval performance on SQuAD 2.0&lt;/li>
 &lt;li>Explored cross view training by training the origin model and summary model together and assembling their result to improve model performance&lt;/li>
-&lt;li>Explored Linear Complexity Attention mechanism with minimal loss on accuracy performance while time cunsumation reduced by 50%&lt;/li>
+&lt;li>Explored Linear Complexity Attention mechanism with minimal loss on accuracy performance while time consumption reduced by 50%&lt;/li>
 &lt;li>Used Contrast Learning and improved Chinese BERT Classification Model on debate dataset by 16% comparing to baseline BERT&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;strong>Researcher&lt;/strong>, SYSU (Advised by Ruixuan Wang), &lt;em>June 2021-November 2021&lt;/em>
 &lt;ul>
-&lt;li>Explored feature map smooth mappiing with attention information&lt;/li>
+&lt;li>Explored feature map smooth mapping with attention information&lt;/li>
 &lt;li>Visualized model architecture and experiment results&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;h1 id="projects">Projects&lt;/h1>
-&lt;h2 id="macos-in-typescirpt">macOS in TypeScirpt&lt;/h2>
-&lt;p>React, SCSS, Animation, Typescript, &lt;em>November 2021-Present&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/macos-in-typescript%29" >GitHub&lt;/a>&lt;/p>
+&lt;h2 id="instant">Instant&lt;/h2>
+&lt;p>Golang, MySQL, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>A Full-stack Micro Blog and Chatting Platform&lt;/li>
+&lt;/ul>
+&lt;h2 id="macos-in-typescript">macOS in TypeScript&lt;/h2>
+&lt;p>React, SCSS, Animation, Typescript, &lt;em>November 2021-May 2022&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/macos-in-typescript%29" >GitHub&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Used React.js for state management and lazy initialization to achieve better performance&lt;/li>
-&lt;li>Built components from scrach, such as switch and pop-over&lt;/li>
-&lt;li>Developed SCSS and canva animations to make the interface friendly and smooth&lt;/li>
+&lt;li>Built components from scratch, such as switch, image previewer, carousal and pop-over&lt;/li>
+&lt;li>Developed SCSS and canvas animations to make the interface friendly and smooth&lt;/li>
 &lt;li>Achieved 95(Performance), 100(Accessibility), 100(Best Practice), 100(SEO) in Chrome lighthouse&lt;/li>
 &lt;/ul>
 &lt;h2 id="cydrive-windows-client">CyDrive Windows Client&lt;/h2>
@@ -59,12 +65,12 @@
 &lt;ul>
 &lt;li>Implemented all page layouts and set up navigation logic of the application&lt;/li>
 &lt;li>Page design was completely grid-based, showing great flexibility and robustness on all kinds of devices&lt;/li>
-&lt;li>Built basic functions including login/out, signup, new/delete, rename, mulit-select, upload/download and etc.&lt;/li>
+&lt;li>Built basic functions including login/out, sign up, new/delete, rename, multi-select, upload/download and etc.&lt;/li>
 &lt;/ul>
 &lt;h2 id="music-player">Music Player&lt;/h2>
 &lt;p>Kotlin, Android, &lt;em>June 2021-August 2021&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Implemented MVVM design pattern, updating data by Livedata and databinding&lt;/li>
+&lt;li>Implemented MVVM design pattern, updating data by Live Data and Data Binding&lt;/li>
 &lt;li>Built a database to keep the user information and recover them on Application opens&lt;/li>
 &lt;li>Used Repository to interact with the database to implement querying and search data of the database&lt;/li>
 &lt;li>Integrated RxJava to check whether permission is granted and notify the activity&lt;/li>
@@ -72,17 +78,17 @@
 &lt;li>Built with Launch and Dispatch for multi-thread to improve application performance and thread safety when updating notification and obtaining permissions&lt;/li>
 &lt;li>Implemented module development pattern by dividing the music player model into permissionModule, mediaModule, repositoryModule and etc.&lt;/li>
 &lt;/ul>
-&lt;h2 id="ai-debater-classfication-model">Ai-Debater Classfication Model&lt;/h2>
+&lt;h2 id="ai-debater-classification-model">Ai-Debater Classification Model&lt;/h2>
 &lt;p>Python, Pytorch, Bert, Transformers, &lt;em>June 2021&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/AI-Debater%29" >GitHub&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>Used adapted constrast learning and smoothed dropout strategies and evaluate our method on Bert and variances of Bert&lt;/li>
+&lt;li>Used adapted contrast learning and smoothed dropout strategies and evaluate our method on Bert and variances of Bert&lt;/li>
 &lt;li>Improved model performance from 78% to 92% in original baseline test setting and from 74% to 80.3% in test dataset setting&lt;/li>
 &lt;/ul>
 &lt;h2 id="dropout-against-deep-leakage-from-gradients">Dropout Against Deep Leakage from Gradients&lt;/h2>
 &lt;p>Python, Pytorch, &lt;em>June 2021&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Re-implemented Deep Leakage from Gradients (NeurIPS2019) and evaluate the data leaking problem on commonly used datasets&lt;/li>
-&lt;li>Explored new ways to prevent detecting and recovering original raw data, and eventually used Dropout to prevent Deep Leakage from Gradients converages to original local data with minimal model performance loss&lt;/li>
+&lt;li>Explored new ways to prevent detecting and recovering original raw data, and eventually used Dropout to prevent Deep Leakage from Gradients converges to original local data with minimal model performance loss&lt;/li>
 &lt;/ul>
 &lt;h2 id="cminus-compiler">Cminus Compiler&lt;/h2>
 &lt;p>C, Flex, Linux, Bison, Cmake, Linux, &lt;em>March 2021-June 2021&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/CMINUS-Compiler%29" >GitHub&lt;/a>&lt;/p>
@@ -94,26 +100,26 @@
 &lt;h2 id="feature-cross-recommender-with-attention">Feature Cross Recommender with Attention&lt;/h2>
 &lt;p>Python, Tensorflow, DCN, &lt;em>March 2021&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/Recommender-with-Attention%29" >GitHub&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>Re-implemented Deep &amp;amp; Cross Network on MovieLens, refering to Deep &amp;amp; Cross Network for Ad Click Predictions (KDD2017)&lt;/li>
-&lt;li>Explored ways of feature smooth and adapt matrix production in the end, which is able to reduce the parameters and inference time of the model, whule increasing its performance by reducing RMSE by 0.004&lt;/li>
+&lt;li>Re-implemented Deep &amp;amp; Cross Network on MovieLens, referring to Deep &amp;amp; Cross Network for Ad Click Predictions (KDD2017)&lt;/li>
+&lt;li>Explored ways of feature smooth and adapt matrix production in the end, which is able to reduce the parameters and inference time of the model, while increasing its performance by reducing RMSE by 0.004&lt;/li>
 &lt;/ul>
 &lt;h2 id="bert-in-pytorch">Bert in Pytorch&lt;/h2>
 &lt;p>Python, Pytorch, Transformers, Bert, &lt;em>March 2021&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Implemented a Bidirectional Encoder Representations from Transformers in Pytorch, which is able to run a variaty of tasks, including mask language modeling and question answering&lt;/li>
+&lt;li>Implemented a Bidirectional Encoder Representations from Transformers in Pytorch, which is able to run a variety of tasks, including mask language modeling and question answering&lt;/li>
 &lt;/ul>
 &lt;h2 id="multi-elevator-control-system">Multi-elevator Control System&lt;/h2>
 &lt;p>C, AT89C52, Keil, Proteus, &lt;em>September 2020-December 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/MultiElevator" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>Designed circuit blueprint connecting AT89C52 and percurial devices&lt;/li>
+&lt;li>Designed circuit blueprint connecting AT89C52 and devices&lt;/li>
 &lt;li>Designed multi-elevator control system which is able to assign the most appropriate one of the two elevators in a four-floor building&lt;/li>
 &lt;/ul>
 &lt;h2 id="question-answering-system">Question Answering System&lt;/h2>
 &lt;p>Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, &lt;em>September 2020-December 2020&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/MRCWeb%29" >GitHub&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Developed a MVC application with SpringBoot and Access MYSQL Database with JPA&lt;/li>
-&lt;li>Designed and implemented grid-based pages with Bootstap that were adaptive to both desktop and mobile devices&lt;/li>
+&lt;li>Designed and implemented grid-based pages with Bootstrap that were adaptive to both desktop and mobile devices&lt;/li>
 &lt;li>Used Python and Transformers to build Bert-based information retrieval model&lt;/li>
 &lt;/ul>
 &lt;h2 id="mips-multi-cycle-central-processing-unit">MIPS Multi-cycle Central Processing Unit&lt;/h2>
@@ -133,14 +139,14 @@
 &lt;h2 id="ftp-client">FTP Client&lt;/h2>
 &lt;p>C++, Qt, Websocket, Multithread, &lt;em>July 2019-August 2019&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Implemented client user interface and logics using muilthread and event to ensure the safety of UI thread&lt;/li>
+&lt;li>Implemented client user interface and logics using multi-thread and event to ensure the safety of UI thread&lt;/li>
 &lt;li>Developed download function supporting pause and resume using websocket&lt;/li>
 &lt;/ul>
 &lt;h2 id="draw-and-guess">Draw and Guess&lt;/h2>
 &lt;p>Kotlin, Android, &lt;em>January 2019-February 2019&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Used MVVM design pattern, updating data by Livedata and databinding&lt;/li>
-&lt;li>Used ViewModelFactory as the constructer for ViewModel with Paramenters&lt;/li>
+&lt;li>Used MVVM design pattern, updating data by Live Data and Data Binding&lt;/li>
+&lt;li>Used ViewModelFactory as the constructor for ViewModel with Parameters&lt;/li>
 &lt;/ul>
 &lt;h2 id="convolution-neural-network-in-numpy">Convolution Neural Network in Numpy&lt;/h2>
 &lt;p>Python, Numpy, &lt;em>September 2018-December 2018&lt;/em>&lt;/p>
@@ -152,7 +158,7 @@
 &lt;h1 id="standard-test-scores">Standard Test Scores&lt;/h1>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;strong>IELTS: 7.5&lt;/strong> (Listening: 8.5, Reading: 8.5, Writing: 7.0, Speakiing: 6.0)&lt;/p>
+&lt;p>&lt;strong>IELTS: 7.5&lt;/strong> (Listening: 8.5, Reading: 8.5, Writing: 7.0, Speaking: 6.0)&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>GRE: 321+&lt;/strong> (Verbal Reasoning: 151, Quantitative Reasoning: 170, Analytical Writing: )&lt;/p>
@@ -166,15 +172,15 @@
 &lt;/ul>
 &lt;h1 id="skills">Skills&lt;/h1>
 &lt;ul>
-&lt;li>&lt;strong>Programing:&lt;/strong> (C++, Python, Java, JavaScript, Kotlin, C#, SQL)&lt;/li>
-&lt;li>&lt;strong>Front-end Development:&lt;/strong> (Vue.js, React.js, Redux, Node.js, Webpack, Vite, Element-UI, AntDesign)&lt;/li>
+&lt;li>&lt;strong>Programing:&lt;/strong> (C++, Golang, Python, Java, JavaScript, Kotlin, C#, SQL)&lt;/li>
+&lt;li>&lt;strong>Front-end Development:&lt;/strong> (Vue.js, React.js, Redux, Next.js, Node.js, Webpack, Vite, Element-UI, AntDesign)&lt;/li>
 &lt;li>&lt;strong>Libraries:&lt;/strong> (SpringBoot, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)&lt;/li>
-&lt;li>&lt;strong>Tools:&lt;/strong> (Visual Code, Visual Studio, IDEA)&lt;/li>
+&lt;li>&lt;strong>Tools:&lt;/strong> (Visual Code, Visual Studio, IDEA, Android Studio)&lt;/li>
 &lt;li>&lt;strong>Computer Vision:&lt;/strong> (Image Classification, Semantic Segmentation, Incremental Learning)&lt;/li>
 &lt;li>&lt;strong>Natural Language Processing:&lt;/strong> (Transformers, Sentiment Analysis, Machine Reading Comprehension)&lt;/li>
 &lt;li>&lt;strong>Recommenders:&lt;/strong> (Feature Cross Learning, Knowledge Graph)&lt;/li>
 &lt;li>&lt;strong>Computer Graphics:&lt;/strong> (Vulkan, OpenGL)&lt;/li>
-&lt;li>&lt;strong>Android Development&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Mobile Development&lt;/strong> (Android, iOS)&lt;/li>
 &lt;/ul>
 &lt;h1 id="experiences">Experiences&lt;/h1>
 &lt;ul>
