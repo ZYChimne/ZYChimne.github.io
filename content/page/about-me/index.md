@@ -12,18 +12,19 @@ menu:
 
 Education
 ======
-* M.S. in Computer Science, Rice University, September 2022-June 2024
+* M.S. in Computer Science, Rice University, August 2022-Jan 2024
 * B.S. in Computer Science, Wuhan University, September 2018-June 2022
 
 Work Experience
 ======
 * **Android & Front-end Engineering Intern**, Sensetime, *September 2021-July 2022*
-  * Optimized face recognition interface of Vistor System for appointments, and reduce binocular face recognition time by 200% on Vistor Appiontment Machine
-  * Developed license examing system of Pyramid SDK, used as the foundation of Central Control System and API for standard Android application in Sensetime
-  * Built the core browsing functionality of Big Intelligent Screen with customed webview and worked closely with front-end team and product team on scope of future innovations
+  * Developed Mobile Meeting Room Appointment Platform, which is one of the most used enterprise applications both in the companies and its clients
+  * Built Elevator Visualization Application, and it connects information of elevators in the building and offers advice for users
+  * Developed license examining system of Pyramid SDK, used as the foundation of Central Control System and API for standard Android application in Sensetime
+  * Built the core browsing functionality of Big Intelligent Screen with custom webview and worked closely with front-end team and product team on scope of future innovations
 
 * **Computer Graphics Engineering Intern**, CBIM, *August 2021-September 2021*
-  * Develop water graphics (surface, body and waves) and water bank with Vulkan
+  * Developed water graphics (surface, body and waves) and water bank with Vulkan
   * Implemented water real-time information synchronization with front-end team
 
 * **Front-end Engineering Intern**, CBIM, *December 2020-January 2021*
@@ -33,23 +34,27 @@ Work Experience
 Research Experience
 ======
 * **Researcher**, WHU IR LAB (Advised by Chenliang Li), *September 2020-June 2021*
-  * Tried to intergrate Entity information in Embedding Layer using Named Entity Information to improve the model information retrieval performance on SQuAD 2.0
+  * Tried to intergrade Entity information in Embedding Layer using Named Entity Information to improve the model information retrieval performance on SQuAD 2.0
   * Explored cross view training by training the origin model and summary model together and assembling their result to improve model performance
-  * Explored Linear Complexity Attention mechanism with minimal loss on accuracy performance while time cunsumation reduced by 50%
+  * Explored Linear Complexity Attention mechanism with minimal loss on accuracy performance while time consumption reduced by 50%
   * Used Contrast Learning and improved Chinese BERT Classification Model on debate dataset by 16% comparing to baseline BERT
 * **Researcher**, SYSU (Advised by Ruixuan Wang), *June 2021-November 2021*
-  * Explored feature map smooth mappiing with attention information
+  * Explored feature map smooth mapping with attention information
   * Visualized model architecture and experiment results
 
 Projects
 ======
-
-macOS in TypeScirpt
+Instant
 ------
-React, SCSS, Animation, Typescript, *November 2021-Present*, [GitHub]((https://github.com/ZYChimne/macos-in-typescript))
+Golang, MySQL, Gin, Vue, TypeScript *March 2022-Present*
+* A Full-stack Micro Blog and Chatting Platform
+
+macOS in TypeScript
+------
+React, SCSS, Animation, Typescript, *November 2021-May 2022*, [GitHub]((https://github.com/ZYChimne/macos-in-typescript))
 * Used React.js for state management and lazy initialization to achieve better performance
-* Built components from scrach, such as switch and pop-over
-* Developed SCSS and canva animations to make the interface friendly and smooth
+* Built components from scratch, such as switch, image previewer, carousal and pop-over
+* Developed SCSS and canvas animations to make the interface friendly and smooth
 * Achieved 95(Performance), 100(Accessibility), 100(Best Practice), 100(SEO) in Chrome lighthouse
 
 
@@ -58,12 +63,12 @@ CyDrive Windows Client
 C#, .Net Framework, WPF, XAML, *September 2021-November 2021*, [GitHub]((https://github.com/ZYChimne/CyDrive-windows))
 * Implemented all page layouts and set up navigation logic of the application
 * Page design was completely grid-based, showing great flexibility and robustness on all kinds of devices
-* Built basic functions including login/out, signup, new/delete, rename, mulit-select, upload/download and etc.
+* Built basic functions including login/out, sign up, new/delete, rename, multi-select, upload/download and etc.
 
 Music Player
 ------
 Kotlin, Android, *June 2021-August 2021*
-* Implemented MVVM design pattern, updating data by Livedata and databinding
+* Implemented MVVM design pattern, updating data by Live Data and Data Binding
 * Built a database to keep the user information and recover them on Application opens
 * Used Repository to interact with the database to implement querying and search data of the database
 * Integrated RxJava to check whether permission is granted and notify the activity
@@ -71,17 +76,17 @@ Kotlin, Android, *June 2021-August 2021*
 * Built with Launch and Dispatch for multi-thread to improve application performance and thread safety when updating notification and obtaining permissions
 * Implemented module development pattern by dividing the music player model into permissionModule, mediaModule, repositoryModule and etc.
 
-Ai-Debater Classfication Model
+Ai-Debater Classification Model
 ------
 Python, Pytorch, Bert, Transformers, *June 2021*, [GitHub]((https://github.com/ZYChimne/AI-Debater))
-* Used adapted constrast learning and smoothed dropout strategies and evaluate our method on Bert and variances of Bert
+* Used adapted contrast learning and smoothed dropout strategies and evaluate our method on Bert and variances of Bert
 * Improved model performance from 78% to 92% in original baseline test setting and from 74% to 80.3% in test dataset setting
 
 Dropout Against Deep Leakage from Gradients
 ------
 Python, Pytorch, *June 2021*
 * Re-implemented Deep Leakage from Gradients (NeurIPS2019) and evaluate the data leaking problem on commonly used datasets
-* Explored new ways to prevent detecting and recovering original raw data, and eventually used Dropout to prevent Deep Leakage from Gradients converages to original local data with minimal model performance loss
+* Explored new ways to prevent detecting and recovering original raw data, and eventually used Dropout to prevent Deep Leakage from Gradients converges to original local data with minimal model performance loss
 
 Cminus Compiler
 ------
@@ -93,26 +98,26 @@ C, Flex, Linux, Bison, Cmake, Linux, *March 2021-June 2021*, [GitHub]((https://g
 Feature Cross Recommender with Attention
 ------
 Python, Tensorflow, DCN, *March 2021*, [GitHub]((https://github.com/ZYChimne/Recommender-with-Attention))
-* Re-implemented Deep & Cross Network on MovieLens, refering to Deep & Cross Network for Ad Click Predictions (KDD2017)
-* Explored ways of feature smooth and adapt matrix production in the end, which is able to reduce the parameters and inference time of the model, whule increasing its performance by reducing RMSE by 0.004
+* Re-implemented Deep & Cross Network on MovieLens, referring to Deep & Cross Network for Ad Click Predictions (KDD2017)
+* Explored ways of feature smooth and adapt matrix production in the end, which is able to reduce the parameters and inference time of the model, while increasing its performance by reducing RMSE by 0.004
 
 Bert in Pytorch
 ------
 Python, Pytorch, Transformers, Bert, *March 2021*
-* Implemented a Bidirectional Encoder Representations from Transformers in Pytorch, which is able to run a variaty of tasks, including mask language modeling and question answering
+* Implemented a Bidirectional Encoder Representations from Transformers in Pytorch, which is able to run a variety of tasks, including mask language modeling and question answering
 
 
 Multi-elevator Control System
 ------
 C, AT89C52, Keil, Proteus, *September 2020-December 2020*, [GitHub](https://github.com/ZYChimne/MultiElevator)
-* Designed circuit blueprint connecting AT89C52 and percurial devices
+* Designed circuit blueprint connecting AT89C52 and devices
 * Designed multi-elevator control system which is able to assign the most appropriate one of the two elevators in a four-floor building
 
 Question Answering System
 ------
 Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, *September 2020-December 2020*, [GitHub]((https://github.com/ZYChimne/MRCWeb))
 * Developed a MVC application with SpringBoot and Access MYSQL Database with JPA
-* Designed and implemented grid-based pages with Bootstap that were adaptive to both desktop and mobile devices
+* Designed and implemented grid-based pages with Bootstrap that were adaptive to both desktop and mobile devices
 * Used Python and Transformers to build Bert-based information retrieval model
   
 MIPS Multi-cycle Central Processing Unit
@@ -132,14 +137,14 @@ Swift, iOS, *March 2020-June 2020*, [GitHub]((https://github.com/ZYChimne/I-m-Hu
 FTP Client
 ------
 C++, Qt, Websocket, Multithread, *July 2019-August 2019*
-* Implemented client user interface and logics using muilthread and event to ensure the safety of UI thread
+* Implemented client user interface and logics using multi-thread and event to ensure the safety of UI thread
 * Developed download function supporting pause and resume using websocket
 
 Draw and Guess
 ------
 Kotlin, Android, *January 2019-February 2019*
-* Used MVVM design pattern, updating data by Livedata and databinding
-* Used ViewModelFactory as the constructer for ViewModel with Paramenters
+* Used MVVM design pattern, updating data by Live Data and Data Binding
+* Used ViewModelFactory as the constructor for ViewModel with Parameters
 
 Convolution Neural Network in Numpy
 ------
@@ -150,7 +155,7 @@ Python, Numpy, *September 2018-December 2018*
 
 Standard Test Scores
 ======
-* **IELTS: 7.5** (Listening: 8.5, Reading: 8.5, Writing: 7.0, Speakiing: 6.0)
+* **IELTS: 7.5** (Listening: 8.5, Reading: 8.5, Writing: 7.0, Speaking: 6.0)
   
 * **GRE: 321+** (Verbal Reasoning: 151, Quantitative Reasoning: 170, Analytical Writing: )
   
@@ -160,15 +165,15 @@ Standard Test Scores
   
 Skills
 ======
-* **Programing:** (C++, Python, Java, JavaScript, Kotlin, C#, SQL)
-* **Front-end Development:** (Vue.js, React.js, Redux, Node.js, Webpack, Vite, Element-UI, AntDesign)
+* **Programing:** (C++, Golang, Python, Java, JavaScript, Kotlin, C#, SQL)
+* **Front-end Development:** (Vue.js, React.js, Redux, Next.js, Node.js, Webpack, Vite, Element-UI, AntDesign)
 * **Libraries:** (SpringBoot, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)
-* **Tools:** (Visual Code, Visual Studio, IDEA)
+* **Tools:** (Visual Code, Visual Studio, IDEA, Android Studio)
 * **Computer Vision:** (Image Classification, Semantic Segmentation, Incremental Learning)
 * **Natural Language Processing:** (Transformers, Sentiment Analysis, Machine Reading Comprehension)
 * **Recommenders:** (Feature Cross Learning, Knowledge Graph)
 * **Computer Graphics:** (Vulkan, OpenGL)
-* **Android Development**
+* **Mobile Development** (Android, iOS)
 
 Experiences
 ======
