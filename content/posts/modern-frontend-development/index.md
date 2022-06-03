@@ -1,8 +1,8 @@
 ---
-title: "Modern Front-end Development"
-description: "Best Practice of Modern Front-end Development"
-date: "2022-05-27"
-slug: "modern-frontend-development"
+title: 'Modern Front-end Development'
+description: 'Best Practice of Modern Front-end Development'
+date: '2022-05-27'
+slug: 'modern-frontend-development'
 categories:
   - Front-end Development
 tags:
@@ -57,7 +57,7 @@ For developers who want to try or build a simple react website, I would recommen
 We can use Intersection Observer to find out whether an element is entering, inside or outside its container or viewport [(MDN Docs of Intersection Observer)](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API). Chrome 51 (Release Date: June 13, 2016) first supports this API, and thus developers have more control over the elements. In the past, to find out whether an element is inside the viewport,
 
 ```ts
-function isElementInViewport(element: HTMLElement) {
+const isElementInViewport = (element: HTMLElement) => {
   const rect = element.getBoundingClientRect();
   return (
     rect.top >= 0 &&
@@ -69,7 +69,7 @@ function isElementInViewport(element: HTMLElement) {
       (window.innerWidth ||
         document.documentElement.clientWidth) /* or $(window).width() */
   );
-}
+};
 ```
 
 But now, with intersection observer, we can use a callback. The callback will run when the intersection observer is initialized and when the element enter or leave the container.
@@ -80,16 +80,16 @@ const observer = new IntersectionObserver(
   (entries: IntersectionObserverEntry[]) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        console.log("Enter");
-        position("VISIBLE"); // Do things if visible
+        console.log('Enter');
+        position('VISIBLE'); // Do things if visible
         // For example, fetch data from the server
         return;
       }
-      console.log("Leave");
+      console.log('Leave');
       if (entry.boundingClientRect.top > 0) {
-        position("BELOW"); // Do things if below
+        position('BELOW'); // Do things if below
       } else {
-        position("ABOVE"); // Do things if above
+        position('ABOVE'); // Do things if above
       }
     });
   },
@@ -103,7 +103,7 @@ const observer = new IntersectionObserver(
 More specifically, in React, if we want to observer multiple elements,
 
 ```tsx
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect } from 'react';
 const Index = () => {
   const refs = useRef<HTMLElement>(Array(n).fill(null));
   useEffect(() => {
