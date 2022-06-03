@@ -4,9 +4,9 @@ description: "Golang Essentials"
 date: "2022-03-01"
 slug: "golang-essentials"
 categories:
-    - Golang
-    - Learning Notes
+  - Golang
+  - Learning Notes
 tags:
-    - golang
-    - learning notes
+  - golang
+  - learning notes
 ---

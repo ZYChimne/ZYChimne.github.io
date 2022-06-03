@@ -4,30 +4,33 @@ description: "Best Practice of Modern Front-end Development"
 date: "2022-05-27"
 slug: "modern-frontend-development"
 categories:
-    - Front-end Development
+  - Front-end Development
 tags:
-    - front-end development
+  - front-end development
 ---
 
-I keep asking myself what modern front-end development would be like. A lot of websites are bootstrapped from create-react-app, Next, Umi and other front-end frameworks today. They save the users a lot of trouble from setting up the configuration themselves. I haven't used Next to build large-scale applications, so I would share my experience with create-react-app, Umi 3 and Umi 4. It is note worthy that Umi 4 is still in the release candidate phase (2022/05/27), so it is not as stable and reliable as Umi 3 and I wouldn't recommend you to use it in enterprise projects.
+## Frameworks
 
-## Create React App
+I keep asking myself what modern front-end development frameworks would be like. A lot of websites are bootstrapped from create-react-app, Next, Umi and other front-end frameworks today. They save the users a lot of trouble from setting up the configuration themselves. I haven't used Next to build large-scale applications, so I would share my experience with create-react-app, Umi 3 and Umi 4. It is note worthy that Umi 4 is still in the release candidate phase (2022/05/27), so it is not as stable and reliable as Umi 3 and I wouldn't recommend you to use it in enterprise projects.
+
+### Create React App
 
 Create React App is very friendly for people who are working with react for the first time. It creates a starter template and configures Webpack, Babel and other tools. Users do not need to know how to set them up. For advanced users, self-configured files will overwrite default settings, so it works perfectly for both starters and advanced developers. It has built-in CSS module support, and users can change css file extension to module to enable this feature.
 
-## Umi
+### Umi
 
-Create React App is fine for small applications. However, when it comes to large-scale front-end application, create-react-app suffers from long webpack bundling time, no server side rendering support, difficult configurations and routings, etc. This is where Next and Umi is good at, especially when people first use them to support server side rendering. React itself is client side rendering, which means that when users request a web page from a server, the server returns an html with minimal elements and links pointing to react javascript. The browser needs to parse the javascript to render the whole page, which is a much slower process and has worse search engine optimization than server side rendering.  
+Create React App is fine for small applications. However, when it comes to large-scale front-end application, create-react-app suffers from long webpack bundling time, no server side rendering support, difficult configurations and routings, etc. This is where Next and Umi is good at, especially when people first use them to support server side rendering. React itself is client side rendering, which means that when users request a web page from a server, the server returns an html with minimal elements and links pointing to react javascript. The browser needs to parse the javascript to render the whole page, which is a much slower process and has worse search engine optimization than server side rendering.
 
 Umi supports common features like CSS modules, routing, server side rendering, mock, plugins, webpack 5, lazy loading, etc. Developers do not have to know how to write code to make them work. Umi 3 is very stable as an enterprise level front-end framework. It locks the dependencies by default. Developers do not need to worry about waking up the next day and finding your dependencies are down.
 
-Upgrading to Umi 4 from Umi 3, except some api breaking changes and default to react 18, I can tell that bundling process is much faster than before. Umi 4 has MSFU (Module Federation Speed Up) V3. It compiles dependencies of the application once and for ever. When the components of the application change, it doesn't have to compile the whole application from scratch. I didn't turn MSFU on in Umi 3 because some libraries are not compatible with Webpack 5, and there are many warnings and errors showing up in the terminal. However, when it comes to Umi 4, everything has changed. MSFU is enabled by default, and the bundling process is very smooth. No more warnings and errors, and faster than you can ever imagine. Developing web pages with Umi 4 is a much more enjoyable experience than ever.  
+Upgrading to Umi 4 from Umi 3, except some api breaking changes and default to react 18, I can tell that bundling process is much faster than before. Umi 4 has MSFU (Module Federation Speed Up) V3. It compiles dependencies of the application once and for ever. When the components of the application change, it doesn't have to compile the whole application from scratch. I didn't turn MSFU on in Umi 3 because some libraries are not compatible with Webpack 5, and there are many warnings and errors showing up in the terminal. However, when it comes to Umi 4, everything has changed. MSFU is enabled by default, and the bundling process is very smooth. No more warnings and errors, and faster than you can ever imagine. Developing web pages with Umi 4 is a much more enjoyable experience than ever.
 
-## Hugo, and other static site generators
+### Hugo, and other static site generators
 
 As you can tell, my blog website is generated by Hugo. Hugo is fast, reliable, and easy to use. I can write blogs in markdown format, and Hugo will compile it to bundled html, css and javascript. I used to use Jekyll to set up my website. In the past, I forked a template from github page academic template and filled it with my own information. If I want to debug it locally, I need to install gem, a tool for ruby library management. What's more, the website of Jekyll looks a bit out-dated, so I began to look for Jekyll alternatives. It seems like I have two choices, Hexo and Hugo. Hexo is written in javascript and relies on npm (node package manager) and node to run. Hugo is written in Go, a programming language known for speed and parallelization. I was not sure which one to use, as they both seem to be a decent choice for me. A large part of personal websites is themes, as we all want our website to look modern, beautiful and comfortable. Hugo's themes caught my eye. I know this is what I want exactly when I first saw it. Beautiful layouts, smooth animations, and the experience of reading blogs is like reading a magazine.
 
 Setting up Hugo is easy. On macOS, run
+
 ```bash
 brew install hugo # install hugo on macOS
 hugo new site your-site-name # create a new folder with starter template
@@ -37,11 +40,98 @@ git submodule add your-path git@your-theme-git # add your chosen theme
 hugo server -D # start hugo server and you can see your page on localhost
 hugo --minify # build your site to release version
 # If you want to integrate with github pages,
-# don't forget to set up github action workflows 
+# don't forget to set up github action workflows
 # and change page source to gh-pages.
 ```
-After running to above command, I can write blogs in /content/posts/my-blog-name/index.md and publish them when I push my code to github and they will get deployed automatically. Hugo is extremely fast, the github action usually takes less than 30 seconds to run. 
 
-## Conclusion
+After running to above command, I can write blogs in /content/posts/my-blog-name/index.md and publish them when I push my code to github and they will get deployed automatically. Hugo is extremely fast, the github action usually takes less than 30 seconds to run.
+
+### Conclusion
 
 For developers who want to try or build a simple react website, I would recommend create-react-app. If the website is complicated, I believe Next and Umi would be a better choice. If you want to write blogs only, you can't miss Hugo.
+
+## APIs
+
+### Intersection Observer
+
+We can use Intersection Observer to find out whether an element is entering, inside or outside its container or viewport [(MDN Docs of Intersection Observer)](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API). Chrome 51 (Release Date: June 13, 2016) first supports this API, and thus developers have more control over the elements. In the past, to find out whether an element is inside the viewport,
+
+```ts
+function isElementInViewport(element: HTMLElement) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <=
+      (window.innerHeight ||
+        document.documentElement.clientHeight) /* or $(window).height() */ &&
+    rect.right <=
+      (window.innerWidth ||
+        document.documentElement.clientWidth) /* or $(window).width() */
+  );
+}
+```
+
+But now, with intersection observer, we can use a callback. The callback will run when the intersection observer is initialized and when the element enter or leave the container.
+Therefore, to load data only when the element is inside the container, we need to use isIntersecting property to prevent undesirable behaviors.
+
+```ts
+const observer = new IntersectionObserver(
+  (entries: IntersectionObserverEntry[]) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        console.log("Enter");
+        position("VISIBLE"); // Do things if visible
+        // For example, fetch data from the server
+        return;
+      }
+      console.log("Leave");
+      if (entry.boundingClientRect.top > 0) {
+        position("BELOW"); // Do things if below
+      } else {
+        position("ABOVE"); // Do things if above
+      }
+    });
+  },
+  {
+    root: null,
+    threshold: 0,
+  }
+);
+```
+
+More specifically, in React, if we want to observer multiple elements,
+
+```tsx
+import React, { useRef, useEffect } from "react";
+const Index = () => {
+  const refs = useRef<HTMLElement>(Array(n).fill(null));
+  useEffect(() => {
+    const callback = (entries: IntersectionObserverEntry[]) => {
+      // Do something, like
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          fetch();
+        }
+      });
+    };
+    const observer = new IntersectionObserver(callback, {
+      root: null,
+      threshold: 0,
+    });
+    refs.forEach((element) => {
+      if (element) observer.observe(element);
+    });
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+  return (
+    <>
+      {refs.map((item, index) => {
+        return <div ref={(el) => (refs.current[index] = el)} key={index}></div>;
+      })}
+    </>
+  );
+};
+```
