@@ -17,15 +17,15 @@
 &lt;p>Say we have a phrase &amp;ldquo;natural language processing&amp;rdquo;, take &amp;ldquo;language&amp;rdquo; as a central word then we have:
 P(&amp;ldquo;natural&amp;rdquo;) = P(&amp;ldquo;natural&amp;rdquo;|&amp;ldquo;language&amp;rdquo;)
 P(&amp;ldquo;processing&amp;rdquo;)=P(&amp;ldquo;processing&amp;rdquo;|&amp;ldquo;language&amp;rdquo;)
-Generally, we have
-$$
+Generally, we have&lt;/p>
+&lt;p>$$
 P(Context Word = o| Center Word = c) = \frac{e^{(u_o^Tv_c)}}{\sum\nolimits_{w\in{Vocab}}e^{(u_w^Tv_c)}}
-$$
-Loss function would be
-$$
+$$&lt;/p>
+&lt;p>Loss function would be&lt;/p>
+&lt;p>$$
 J(\theta) = -\frac{1}{T}logL(\theta) = -\frac{1}{T}\sum_{t=1}^T\sum_{-m\leq j\leq m&amp;amp;j\neq0}logP(w_{t+j}|w_t; \theta)
-$$
-Note that $L(\theta)$ is the maximum likelihood function.&lt;/p>
+$$&lt;/p>
+&lt;p>Note that $L(\theta)$ is the maximum likelihood function.&lt;/p>
 &lt;h3 id="single-value-decomposition">Single Value Decomposition&lt;/h3>
 &lt;p>We use a word-to-document co-occurrence matrix.
 Say we have two sentences, and the window size = 1.
@@ -129,15 +129,15 @@ I like natural language processing.&lt;/p>
 &lt;/table>
 &lt;h3 id="glove">GloVe&lt;/h3>
 &lt;p>As its name suggests, GloVe uses global information to build vectors.
-$X_{ij}$ means how many times word j has shown up in the context of word i, then $X_i = \sum_kX_{ik}$ means all the words showing up in the context of word i. The probility of word j showing up in the context of word i is denoted as
-$$
+$X_{ij}$ means how many times word j has shown up in the context of word i, then $X_i = \sum_kX_{ik}$ means all the words showing up in the context of word i. The probility of word j showing up in the context of word i is denoted as&lt;/p>
+&lt;p>$$
 P_{ij} = P(j|i) = X_{ij} / X_i
-$$
-Loss Function:
-$$
+$$&lt;/p>
+&lt;p>Loss Function:&lt;/p>
+&lt;p>$$
 w_i * w_j = logP(i|j)
-$$
-$$
+$$&lt;/p>
+&lt;p>$$
 J = \sum_{i, j = 1}^Vf(X_{ij})(w_i^T\tilde{w_j} + b_i + \tilde{b_j} - logX_{ij})^2
 $$&lt;/p>
 &lt;h2 id="named-entity-recognition">Named Entity Recognition&lt;/h2>
@@ -150,12 +150,12 @@ museum in Paris are amazing&lt;br>
 x1 x2 x3 x4 x5&lt;br>
 $X_{window} = [x_1, x_2, x_3, x_4, x_5]$
 If we have mulitple class, we can use a softmax classifier.&lt;br>
-Say x denotes the input word vector and y is the target class among k classes, then we have
-$$
+Say x denotes the input word vector and y is the target class among k classes, then we have&lt;/p>
+&lt;p>$$
 P(y|x) = \frac{e^{(W_y&lt;em>x)}}{\sum_{c=1}^ke^{(W_c&lt;/em>x)}}
-$$
-The loss function is a cross entropy function:
-$$
+$$&lt;/p>
+&lt;p>The loss function is a cross entropy function:&lt;/p>
+&lt;p>$$
 J(\theta) = \frac{1}{N}\sum_{i = 1}^N-log(\frac{e^{(W_y&lt;em>x)}}{\sum_{c = 1}^ke^{(W_c&lt;/em>x)}})
 $$&lt;/p>
 &lt;h2 id="syntactic-structure-analaysis">Syntactic Structure Analaysis&lt;/h2>
@@ -179,8 +179,8 @@ There are 3 transition between states:&lt;/p>
 &lt;/ul>
 &lt;h2 id="language-model">Language Model&lt;/h2>
 &lt;p>The model is about :&lt;br>
-Given {$x_1, x_2, \cdots, x_n$}, predict $x_{n+1}$.
-$$
+Given {$x_1, x_2, \cdots, x_n$}, predict $x_{n+1}$.&lt;/p>
+&lt;p>$$
 P(x^{t + 1}, x^t, \cdots, x^1) = \sum_{t = 1}^TP(x^{t+1} | x^t, \cdots, x^1)
 $$&lt;/p>
 &lt;h3 id="n-gram-model">N-Gram Model&lt;/h3>
@@ -198,20 +198,20 @@ Cons:&lt;/li>
 &lt;/ul>
 &lt;h3 id="recurrent-neural-network">Recurrent Neural Network&lt;/h3>
 &lt;p>In a RNN, different parameters share a same matrix, and they are not limited to a fixed size window.&lt;br>
-Hidden Layer:
-$$
+Hidden Layer:&lt;/p>
+&lt;p>$$
 h_t = \sigma(W^{(hh)}h_{t - 1} + W^{ht}x_{[t]})
-$$
-Output:
-$$
+$$&lt;/p>
+&lt;p>Output:&lt;/p>
+&lt;p>$$
 \hat{y_t} = softmax(W^{(S)}h_t)
-$$
-The loss function is cross entropy loss.&lt;br>
-We can use perplexity to evalute our language model.
-$$
+$$&lt;/p>
+&lt;p>The loss function is cross entropy loss.&lt;br>
+We can use perplexity to evalute our language model.&lt;/p>
+&lt;p>$$
 perplexity = e^{J(\theta)}
-$$
-Pros:&lt;/p>
+$$&lt;/p>
+&lt;p>Pros:&lt;/p>
 &lt;ul>
 &lt;li>It can deal with input of any length.&lt;/li>
 &lt;li>We can use information with a long history.&lt;/li>
@@ -229,61 +229,61 @@ In the opposite, if |W| is greater than 1, as t - k incrrases, W is likely to be
 &lt;h2 id="long-short-term-memory-lstm">Long Short Term Memory (LSTM)&lt;/h2>
 &lt;p>We introduce cell states to store the long-term information, and they can be written and erased by control gate.
 A general LSTM:
-Input gate
-$$
+Input gate&lt;/p>
+&lt;p>$$
 i_t = \sigma(W^{(i)}x_t + U^{(i)}h_{t - 1})
-$$
-Forget gate
-$$
+$$&lt;/p>
+&lt;p>Forget gate&lt;/p>
+&lt;p>$$
 f_t = \sigma(W^{(f)}x_t + U^{(f)}h_{t - 1})
-$$
-Output gate
-$$
+$$&lt;/p>
+&lt;p>Output gate&lt;/p>
+&lt;p>$$
 o_t = \sigma(W^{(o)}x_t + U^{(o)}h_{t - 1})
-$$
-New memory cell
-$$
+$$&lt;/p>
+&lt;p>New memory cell&lt;/p>
+&lt;p>$$
 \tilde{c_t} = tanh(W^{(c)}x_t + U^{(c)}h_{t - 1})
-$$
-Final memory cell
-$$
+$$&lt;/p>
+&lt;p>Final memory cell&lt;/p>
+&lt;p>$$
 c_t = f_t\circ c_{t - 1} + i_t\circ \tilde{c_t}
-$$
-Hidden state
-$$
+$$&lt;/p>
+&lt;p>Hidden state&lt;/p>
+&lt;p>$$
 h_t = o_t\circ tanh(c_t)
-$$
-Gated Recurrent Unit (GRU)
+$$&lt;/p>
+&lt;p>Gated Recurrent Unit (GRU)
 GRU is very similar to LSTM, it combines forget gate and input gate into an update gate, and the cell state is combined into hidden state.
-Update gate
-$$
+Update gate&lt;/p>
+&lt;p>$$
 z_t = \sigma(W^{(z)}x_t + U^{(z)}h_{t - 1})
-$$
-Reset gate
-$$
+$$&lt;/p>
+&lt;p>Reset gate&lt;/p>
+&lt;p>$$
 r_t = \sigma(W^{(r)}x_t + U^{(r)}h_{t - 1})
-$$
-New memory cell
-$$
+$$&lt;/p>
+&lt;p>New memory cell&lt;/p>
+&lt;p>$$
 \tilde{h_t} = tanh(r_t\circ Uh_{t - 1} + Wx_t)
-$$
-Hidden state
-$$
+$$&lt;/p>
+&lt;p>Hidden state&lt;/p>
+&lt;p>$$
 h_t = (1 - z_t)\circ \tilde{h_t} + z_t\circ h{t - 1}
 $$&lt;/p>
 &lt;h2 id="neural-machine-translation">Neural Machine Translation&lt;/h2>
 &lt;p>Neural machine translation is generally a sequence to sequence model. It uses RNN as an encoder and another RNN as a decoder.&lt;br>
-Loss function:
-$$
+Loss function:&lt;/p>
+&lt;p>$$
 J(\theta) = \frac{1}{T}\sum_{t = 1}^T-log\tilde{y_{x_{t + 1}}^{(t)}}
-$$
-We choose the word with highest probability as the next input of the decoder.&lt;/p>
+$$&lt;/p>
+&lt;p>We choose the word with highest probability as the next input of the decoder.&lt;/p>
 &lt;h3 id="bilingual-evaluation-study-bleu">Bilingual Evaluation Study (BLEU)&lt;/h3>
 &lt;p>Presion score: $p_n = \frac{# matched n-grams}{# n-grams in the candidate translation}$
 Weight: $w = \frac{1}{2^n}$
 Penalty: $\beta = e^{min(0, 1 - \frac{len_{ref}}{len_{MT}})}$
-BLEU:
-$$
+BLEU:&lt;/p>
+&lt;p>$$
 BLEU = \beta\prod_{i = 1}^kp_n^{w_n}
 $$&lt;/p>
 &lt;h3 id="attention">Attention&lt;/h3>
@@ -300,38 +300,38 @@ $$&lt;/p>
 &lt;p>We use the Stanford Question Answering Dataset.&lt;/p>
 &lt;h3 id="stanford-attention-reader">Stanford Attention Reader&lt;/h3>
 &lt;p>We get the features of the questions with a Bidirectional LSTM. For the answers, we can use a Bidirectional LSTM to get the features of every word, and $Attention = (\vec{feature_{q_i}}, \vec{feature_{w_i}})$, so that we can infer the start position and the end position of the answer.&lt;br>
-The loss function is:
-$$
+The loss function is:&lt;/p>
+&lt;p>$$
 L = -\sum logP^{start}(a_{start}) - \sum logP^{end}(a_{end})
 $$&lt;/p>
 &lt;h3 id="birectional-attention-flow">Birectional Attention Flow&lt;/h3>
 &lt;p>The attention model here is bidirectional, because we have a query-to-context layer and a context to query layer.&lt;br>
-Similar matrix:
-$$
+Similar matrix:&lt;/p>
+&lt;p>$$
 S_{ij} = w_{sim}^T[c_i; q_j, c_i \circ q_j]\in R
-$$
-Note that $c_i$, $q_i$ denote context vector and query vector respectively.&lt;br>
+$$&lt;/p>
+&lt;p>Note that $c_i$, $q_i$ denote context vector and query vector respectively.&lt;br>
 For the context to query attention,&lt;br>
-Attention score:
-$$
+Attention score:&lt;/p>
+&lt;p>$$
 \alpha^i = softmax(S_{i,:})\in R^M \forall i\in{1,\cdots, N}
-$$
-Weighted vector:
-$$
+$$&lt;/p>
+&lt;p>Weighted vector:&lt;/p>
+&lt;p>$$
 a_i = \sum_{j = 1}^M\alpha^i_jq_j \in R^{2h} \forall i\in{1,\cdots, N}
-$$
-For the query to context attention,&lt;br>
-$$
+$$&lt;/p>
+&lt;p>For the query to context attention,&lt;/p>
+&lt;p>$$
 m_i = max_jS_{ij } \in R \forall i\in{1,\cdots, N}
-$$
-$$
+$$&lt;/p>
+&lt;p>$$
 \beta = softmax(m)\in R^N
-$$
-$$
+$$&lt;/p>
+&lt;p>$$
 c&amp;rsquo; = \sum_{i = 1}^N\beta^ic_i \in R^{2h}
-$$
-The output of the Attention Flow Layer would be
-$$
+$$&lt;/p>
+&lt;p>The output of the Attention Flow Layer would be&lt;/p>
+&lt;p>$$
 b_i = [c_i; a_i; c_i\circ a_i; c_i\circ c&amp;rsquo;] \in R^{8h} \forall i \in{1, \cdots, N}
 $$&lt;/p>
 &lt;h2 id="convolutional-neural-network">Convolutional Neural Network&lt;/h2>
@@ -339,21 +339,21 @@ $$&lt;/p>
 The initiative of pooling is the stablize the network, when the input changes little.&lt;/p>
 &lt;h3 id="quasi-recurrent-neural-network">Quasi Recurrent Neural Network&lt;/h3>
 &lt;p>Quaso Recurrent Neural Network is a combination of convolutional neural network and recurrent neural network. The main idea is to use a convolutional neural network to extract features and replace the pooling layer with dynamic average pooling.&lt;br>
-For the feature extraction, the candidate vector, forget gate, output gate is:
-$$
+For the feature extraction, the candidate vector, forget gate, output gate is:&lt;/p>
+&lt;p>$$
 Z = tanh(W_z * X)
-$$
-$$
+$$&lt;/p>
+&lt;p>$$
 F = \sigma(W_f * X)
-$$
-$$
+$$&lt;/p>
+&lt;p>$$
 O = \sigma(W_o * X)
-$$
-The dynamic average pooling is:
-$$
+$$&lt;/p>
+&lt;p>The dynamic average pooling is:&lt;/p>
+&lt;p>$$
 x_t = f_t\cdot c_{t - 1} + (1 - f_t)\cdot z_t
-$$
-$$
+$$&lt;/p>
+&lt;p>$$
 h_t = o_t\cdot c_t
 $$&lt;/p>
 &lt;h2 id="subword-model">Subword Model&lt;/h2>
@@ -366,24 +366,24 @@ $$&lt;/p>
 &lt;h2 id="contextual-word-representation">Contextual Word Representation&lt;/h2>
 &lt;h3 id="embeddings-from-language-models-elmo">Embeddings from Language Models (ELMO)&lt;/h3>
 &lt;p>ELMO uses a bidirectional LSTM to compute the contextual embedding. The lower layer represents the basic grammar information, while the higher layer represents context information.&lt;br>
-Forward language model:
-$$
+Forward language model:&lt;/p>
+&lt;p>$$
 p(t_1, t_2, \cdots, t_N) = \prod_{k = 1}^Np(t_k|t_1, t_2, \cdots, t_{k - 1})
-$$
-Backword language model:
-$$
+$$&lt;/p>
+&lt;p>Backword language model:&lt;/p>
+&lt;p>$$
 p(t_1, t_2, \cdots, t_N) = \prod_{k = 1}^Np(t_k|t_{k + 1}, t_{k + 2}, \cdots, t_N)
-$$
-The initiative of the bidirectional LSTM is to maximaize:
-$$
+$$&lt;/p>
+&lt;p>The initiative of the bidirectional LSTM is to maximaize:&lt;/p>
+&lt;p>$$
 \sum_{k + 1}^N(logp(t_k|t_1, t_2, \cdots, t{k - 1}) + logp(t_k|t_{k + 1}, t_{k + 2}, \cdots, t_N))
-$$
-For the word at index k, it is represented by (2L + 1) vectors. One of them is an embedding not related to the context, while L layers of forward LSTM produces $\vec{h_{kj}} related to the former paragraph and L layers of backward LSTM produces $\vec{h_{kj}} for the rest of the paragraph.
-For the following layers, we have:
-$$
+$$&lt;/p>
+&lt;p>For the word at index k, it is represented by (2L + 1) vectors. One of them is an embedding not related to the context, while L layers of forward LSTM produces $\vec{h*{kj}} related to the former paragraph and L layers of backward LSTM produces $\vec{h*{kj}} for the rest of the paragraph.
+For the following layers, we have:&lt;/p>
+&lt;p>$$
 ELMO_k^{task} = E(R_k; \theta^{task}) = \gamma^{task}\sum_{j = 0}^Ls_j^{task}h_{k, j}^{LM}
-$$
-Note that $s^{task}$ is softmaxed and $\gamma^{task}$ is a scale parameter.&lt;/p>
+$$&lt;/p>
+&lt;p>Note that $s^{task}$ is softmaxed and $\gamma^{task}$ is a scale parameter.&lt;/p>
 &lt;h3 id="generative-pre-training-gpt">Generative Pre Training (GPT)&lt;/h3>
 &lt;p>The basic structure of the GPT is a transformer, which is used for unsupervised learning for the text, and then we can use the embedding for supervised fine-tuning for the following tasks.&lt;br>
 Note that it is one direction.&lt;/p>
