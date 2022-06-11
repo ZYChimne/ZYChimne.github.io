@@ -8,3 +8,7 @@ categories:
 tags:
   - front-end development
 ---
+
+## Responsive Web Design
+
+### @media

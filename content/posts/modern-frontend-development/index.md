@@ -135,3 +135,14 @@ const Index = () => {
   );
 };
 ```
+
+## Promise
+
+### Implement an A+ Promise in TypeScript
+
+[MyPromise](https://github.com/ZYChimne/MyPromise)
+
+### References
+
+- [juejin](https://juejin.cn/post/6994594642280857630)
+- [Promise A+](https://promisesaplus.com/)
