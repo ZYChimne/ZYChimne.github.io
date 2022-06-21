@@ -87,6 +87,9 @@
 &lt;a class="link" href="https://oi-wiki.org/ds/seg/" target="_blank" rel="noopener"
 >Segment Tree OI-WIKI&lt;/a>&lt;br>
 Segment Tree is efficient to tell how many times a point has appeared in a segment.&lt;/p>
+&lt;h3 id="trie-prefix-tree">Trie (Prefix Tree)&lt;/h3>
+&lt;p>&lt;a class="link" href="https://leetcode.cn/problems/implement-trie-prefix-tree/description/" target="_blank" rel="noopener"
+>Implement Trie&lt;/a>&lt;/p>
 &lt;h2 id="string">String&lt;/h2>
 &lt;h3 id="split">Split&lt;/h3>
 &lt;p>C++ string doesn&amp;rsquo;t have built-in split function. To split string into an array of substrings by a character,&lt;/p>
@@ -356,7 +359,7 @@ Other hybrid sorts include introsort, timsort, etc.&lt;/p>
 &lt;/span>&lt;span class="lnt">17
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// assume
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// assume target in candidates
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">vector&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="n">candidates&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// return index of target in candidates
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="nf">binary_search&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">target&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
@@ -910,4 +913,8 @@ Other hybrid sorts include introsort, timsort, etc.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://graphics.stanford.edu/~seander/bithacks.html" target="_blank" rel="noopener"
 >Bit Twiddling Hacks&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Regular Expression</title><link>https://zychimne.github.io/posts/regular-expression/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/regular-expression/</guid><description/></item></channel></rss>
+&lt;/ul></description></item><item><title>Regular Expression</title><link>https://zychimne.github.io/posts/regular-expression/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/regular-expression/</guid><description>&lt;h2 id="regular-expression">Regular Expression&lt;/h2>
+&lt;p>&lt;a class="link" href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference" target="_blank" rel="noopener"
+>Read More on Microsoft Documentation&lt;/a>
+&lt;a class="link" href="https://github.com/ziishaned/learn-regex" target="_blank" rel="noopener"
+>GitHub Repository Learn Regex&lt;/a>&lt;/p></description></item></channel></rss>

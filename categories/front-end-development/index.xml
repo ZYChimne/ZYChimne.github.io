@@ -205,5 +205,55 @@ Therefore, to load data only when the element is inside the container, we need t
 >juejin&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://promisesaplus.com/" target="_blank" rel="noopener"
 >Promise A+&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>CSS Tricks</title><link>https://zychimne.github.io/posts/css-tricks/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/css-tricks/</guid><description>&lt;h2 id="responsive-web-design">Responsive Web Design&lt;/h2>
-&lt;h3 id="media">@media&lt;/h3></description></item><item><title>React Essentials</title><link>https://zychimne.github.io/posts/react-essentials/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/react-essentials/</guid><description/></item><item><title>TypeScript Essentials</title><link>https://zychimne.github.io/posts/typescript-essentials/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/typescript-essentials/</guid><description/></item></channel></rss>
+&lt;/ul></description></item><item><title>CSS Tricks</title><link>https://zychimne.github.io/posts/css-tricks/</link><pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/css-tricks/</guid><description>&lt;h2 id="responsive-web-design">Responsive Web Design&lt;/h2>
+&lt;h3 id="media">@media&lt;/h3>
+&lt;p>@media is not a new feature, since Chrome supports it in the first version. It is especially useful for displaying different layouts on devices with different screen sizes. As it uses hardware information from devices, it raises security concerns about identifying a device. Browser may choose to return default values rather than actual information when users activate no-tracking mode.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">media&lt;/span> &lt;span class="nt">screen&lt;/span> &lt;span class="nt">and&lt;/span> &lt;span class="o">(&lt;/span>&lt;span class="nt">min-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">900px&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">.&lt;/span>&lt;span class="nc">element&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">padding&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="flex">flex&lt;/h3>
+&lt;p>Sometimes fixed width and height are not the optimal solution for different devices, because their screen widths and heights are different. Therefore, let the browser decide will be a better option. To do this, we can set up max width, min width, &lt;a class="link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis" target="_blank" rel="noopener"
+>flex basis&lt;/a>, &lt;a class="link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow" target="_blank" rel="noopener"
+>flex grow&lt;/a> and &lt;a class="link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink" target="_blank" rel="noopener"
+>flex shrink&lt;/a>. (Note that flex basis, flex grow and flex basis can be defined with &lt;a class="link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="noopener"
+>flex&lt;/a> as a short-hand css property)&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">element&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">flex&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="displaying-units">Displaying Units&lt;/h3>
+&lt;p>Generally, there are two catagories of displaying units, absolute units and relative units. The most commonly used absolute unit is px in web design and development. In relative units, vw / vh, em and rem are more popular. em is based on the font size of its parent and rem is based on the root font size. vw / vh is based on the viewport size. &lt;a class="link" href="https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/" target="_blank" rel="noopener"
+>Read More&lt;/a>.&lt;br>
+They are useful for different scenarios, but it is recommended to use only one or two of them in the entire project to remain consistent.&lt;/p>
+&lt;h2 id="mobile-device-adaption">Mobile Device Adaption&lt;/h2>
+&lt;h3 id="consistent-experience-on-different-devices">Consistent Experience on Different Devices&lt;/h3>
+&lt;p>Using viewport width and viewport height is better than px because iOS devices and high-resolution Android Devices tend to have higher px width and px height, but the design process of the blueprint is for viewport. We can use PostCSS Plugins, to set up a basic device and then CSS px properties will be automatically converted to the viewport units.&lt;/p>
+&lt;h3 id="displaying-color-with-alpha-channel-properly">Displaying Color with Alpha Channel Properly&lt;/h3>
+&lt;p>Android doesn&amp;rsquo;t support 8-digit hex color, so it will simply omit the color property. CSS minimizers like esbuild minimizes the color to an 8-digit hex, and thus this is where they are in conflict. The solution I found is to set the minify syntax for CSS to false on esbuild.&lt;/p></description></item><item><title>React Essentials</title><link>https://zychimne.github.io/posts/react-essentials/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/react-essentials/</guid><description/></item><item><title>TypeScript Essentials</title><link>https://zychimne.github.io/posts/typescript-essentials/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/typescript-essentials/</guid><description>&lt;h2 id="typescript">TypeScript&lt;/h2>
+&lt;p>&lt;a class="link" href="https://github.com/airbnb/javascript" target="_blank" rel="noopener"
+>Airbnb JavaScript Style Guide&lt;/a>
+&lt;a class="link" href="https://github.com/airbnb/javascript/tree/master/react" target="_blank" rel="noopener"
+>Airbnb React/JSX Style Guide&lt;/a>
+&lt;a class="link" href="https://github.com/airbnb/css" target="_blank" rel="noopener"
+>Airbnb CSS / Sass Style Guide&lt;/a>&lt;/p></description></item></channel></rss>
