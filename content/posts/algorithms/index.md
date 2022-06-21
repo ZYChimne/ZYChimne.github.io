@@ -61,6 +61,10 @@ TreeNode* delete_node(TreeNode* root, int key) {
 [Segment Tree OI-WIKI](https://oi-wiki.org/ds/seg/)  
 Segment Tree is efficient to tell how many times a point has appeared in a segment.
 
+### Trie (Prefix Tree)
+
+[Implement Trie](https://leetcode.cn/problems/implement-trie-prefix-tree/description/)
+
 ## String
 
 ### Split
@@ -215,7 +219,7 @@ int main() {
 ### Binary Search
 
 ```c++
-// assume 
+// assume target in candidates
 vector<int>candidates;
 // return index of target in candidates
 int binary_search(int target) {

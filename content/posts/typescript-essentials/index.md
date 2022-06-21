@@ -8,3 +8,9 @@ categories:
 tags:
   - front-end development
 ---
+
+## TypeScript
+
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+[Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
+[Airbnb CSS / Sass Style Guide](https://github.com/airbnb/css)
