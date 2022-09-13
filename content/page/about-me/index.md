@@ -57,7 +57,7 @@ Golang, MySQL, Gin, Vue, TypeScript _March 2022-Present_, [GitHub](https://githu
 
 ## macOS in TypeScript
 
-React, SCSS, Animation, Typescript, _November 2021-May 2022_, [GitHub](<(https://github.com/ZYChimne/macos-in-typescript)>)
+React, SCSS, Animation, Typescript, _November 2021-May 2022_, [GitHub](https://github.com/ZYChimne/macos-in-typescript)
 
 - Used **React.js** for state management and lazy initialization to achieve better performance.
 - Built components from scratch, such as switch, image previewer, carousal and pop-over
@@ -66,7 +66,7 @@ React, SCSS, Animation, Typescript, _November 2021-May 2022_, [GitHub](<(https:/
 
 ## CyDrive Windows Client
 
-C#, .Net Framework, WPF, XAML, _September 2021-November 2021_, [GitHub](<(https://github.com/ZYChimne/CyDrive-windows)>)
+C#, .Net Framework, WPF, XAML, _September 2021-November 2021_, [GitHub](https://github.com/ZYChimne/CyDrive-windows)
 
 - Implemented all page layouts and set up navigation logic of the application
 - Page design was completely grid-based, showing great flexibility and robustness on all kinds of devices
@@ -86,7 +86,7 @@ Kotlin, Android, _June 2021-August 2021_
 
 ## Ai-Debater Classification Model
 
-Python, Pytorch, Bert, Transformers, _June 2021_, [GitHub](<(https://github.com/ZYChimne/AI-Debater)>)
+Python, Pytorch, Bert, Transformers, _June 2021_, [GitHub](https://github.com/ZYChimne/AI-Debater)
 
 - Used adapted contrast learning and smoothed dropout strategies and evaluate our method on Bert and variances of Bert
 - Improved model performance from 78% to 92% in original baseline test setting and from 74% to 80.3% in test dataset setting
@@ -100,7 +100,7 @@ Python, Pytorch, _June 2021_
 
 ## Cminus Compiler
 
-C, Flex, Linux, Bison, Cmake, Linux, _March 2021-June 2021_, [GitHub](<(https://github.com/ZYChimne/CMINUS-Compiler)>)
+C, Flex, Linux, Bison, Cmake, Linux, _March 2021-June 2021_, [GitHub](https://github.com/ZYChimne/CMINUS-Compiler)
 
 - Designed rules and regular expressions for lexical analysis and syntax analysis to generate Abstract Syntax Tree and calculate expression results
 - Implemented exception analysis to find out and highlight error types locations, and details in code
@@ -128,7 +128,7 @@ C, AT89C52, Keil, Proteus, _September 2020-December 2020_, [GitHub](https://gith
 
 ## Question Answering System
 
-Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, _September 2020-December 2020_, [GitHub](<(https://github.com/ZYChimne/MRCWeb)>)
+Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, _September 2020-December 2020_, [GitHub](https://github.com/ZYChimne/MRCWeb)
 
 - Developed a MVC application with SpringBoot and Access MYSQL Database with JPA
 - Designed and implemented grid-based pages with Bootstrap that were adaptive to both desktop and mobile devices
@@ -136,7 +136,7 @@ Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, _September 2020-Decembe
 
 ## MIPS Multi-cycle Central Processing Unit
 
-Verilog HDL, Modelsim, _March 2020-June 2020_, [GitHub](<(https://github.com/ZYChimne/CPU-implement)>)
+Verilog HDL, Modelsim, _March 2020-June 2020_, [GitHub](https://github.com/ZYChimne/CPU-implement)
 
 - Built a CPU supporting 26 MIPS instructions, including add, sub, sw, lw, beq, bne, j, jr, jal
 - Implemented prediction unit so that pipeline did not have to be stalled
@@ -145,7 +145,7 @@ Verilog HDL, Modelsim, _March 2020-June 2020_, [GitHub](<(https://github.com/ZYC
 
 ## I'm Hungry
 
-Swift, iOS, _March 2020-June 2020_, [GitHub](<(https://github.com/ZYChimne/I-m-Hungry)>)
+Swift, iOS, _March 2020-June 2020_, [GitHub](https://github.com/ZYChimne/I-m-Hungry)
 
 - A restaurant order application
 - Used SQLite to store order data and restaurant data
