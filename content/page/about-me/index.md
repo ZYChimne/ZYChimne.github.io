@@ -12,26 +12,26 @@ menu:
 
 # Education
 
-- M.S. in Computer Science, Rice University, August 2022-Jan 2024
+- M.S. in Computer Science, Rice University, August 2022-Dec 2023
 - B.S. in Computer Science, Wuhan University, September 2018-June 2022
 
 # Work Experience
 
 - **Android & Front-end Engineering Intern**, Sensetime, _September 2021-July 2022_
 
-  - Developed Mobile Meeting Room Appointment Platform, which is one of the most used enterprise applications both in the companies and its clients
-  - Built Elevator Visualization Application, and it connects information of elevators in the building and offers advice for users
-  - Developed license examining system of Pyramid SDK, used as the foundation of Central Control System and API for standard Android application in Sensetime
-  - Built the core browsing functionality of Big Intelligent Screen with custom webview and worked closely with front-end team and product team on scope of future innovations
-
+  - Oversaw and designed a mobile meeting room appointment system using **React** and **TypeScript**,  which became one of the most used enterprise applications within the company and with 2 clients.
+  - Conceptualized and developed Elevator Visualization Platform and Big Intelligent Screen with **Kotlin**, making it easier for users to look up elevator status and meeting room reservation status.
+  - Created and introduced logging module in Pyramid SDK; maintainers and developers could view device logs online rather than ADB and was able to store persistently.
+  - Contributed to design of authorization module in Pyramid SDK with **Java** and ensured only authorized devices could access internal data.
+  
 - **Computer Graphics Engineering Intern**, CBIM, _August 2021-September 2021_
 
-  - Developed water graphics (surface, body and waves) and water bank with Vulkan
+  - Programmed water graphics (surface, body and waves) and water bank with **Vulkan** and **C++** for architecture designers; beta tested for 10K users.
   - Implemented water real-time information synchronization with front-end team
 
 - **Front-end Engineering Intern**, CBIM, _December 2020-January 2021_
-  - Developed a website using Vue.js and Vue-Router to interact with the REST API
-  - Implemented the layout of website with ElementUI to show widgets and visualized project information in a dynamic map with LayerUI.js
+  - Developed a website using **Vue.js** and Vue-Router to interact with the REST API.
+  - Built the layout of website with **ElementUI** to show widgets and visualized project information in a dynamic map with **LayerUI.js**.
 
 # Research Experience
 
@@ -48,18 +48,21 @@ menu:
 
 ## Instant
 
-Golang, MySQL, Gin, Vue, TypeScript _March 2022-Present_
+Golang, MySQL, Gin, Vue, TypeScript _March 2022-Present_, [GitHub](<(https://github.com/ZYChimne/instant-go)>)
 
-- A Full-stack Micro Blog and Chatting Platform
+- Designed and implemented a **Fan Out on Write** inbox using **Go** and **MongoDB** to retrieve user feed, decreasing time to fetch data comparing to Fan out on Read by over 3 times.
+- Designed and built hierarchical web session cache system with **Redis** and **MongoDB**; over 10 times faster than retrieving data from database directly.
+- Launched instant messaging system with **Web Socket**.
+- Managed a fast web interface with **Vue 3**, **TypeScript**, and **Vite 3**; achieved 98 on performance in lighthouse on the main page.
 
 ## macOS in TypeScript
 
 React, SCSS, Animation, Typescript, _November 2021-May 2022_, [GitHub](<(https://github.com/ZYChimne/macos-in-typescript)>)
 
-- Used React.js for state management and lazy initialization to achieve better performance
+- Used **React.js** for state management and lazy initialization to achieve better performance.
 - Built components from scratch, such as switch, image previewer, carousal and pop-over
-- Developed SCSS and canvas animations to make the interface friendly and smooth
-- Achieved 95(Performance), 100(Accessibility), 100(Best Practice), 100(SEO) in Chrome lighthouse
+- Developed **SCSS** and canvas animations to make the interface friendly and smooth
+- Achieved 95 (Performance), 100 (Accessibility), 100 (Best Practice), 100 (SEO) in Chrome lighthouse
 
 ## CyDrive Windows Client
 
