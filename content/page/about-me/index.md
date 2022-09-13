@@ -48,7 +48,7 @@ menu:
 
 ## Instant
 
-Golang, MySQL, Gin, Vue, TypeScript _March 2022-Present_, [GitHub](<(https://github.com/ZYChimne/instant-go)>)
+Golang, MySQL, Gin, Vue, TypeScript _March 2022-Present_, [GitHub](https://github.com/ZYChimne/instant-go)
 
 - Designed and implemented a **Fan Out on Write** inbox using **Go** and **MongoDB** to retrieve user feed, decreasing time to fetch data comparing to Fan out on Read by over 3 times.
 - Designed and built hierarchical web session cache system with **Redis** and **MongoDB**; over 10 times faster than retrieving data from database directly.
