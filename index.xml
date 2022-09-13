@@ -1122,7 +1122,7 @@ Therefore, to load data only when the element is inside the container, we need t
 >Promise A+&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>About Me</title><link>https://zychimne.github.io/about-me/</link><pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/about-me/</guid><description>&lt;h1 id="education">Education&lt;/h1>
 &lt;ul>
-&lt;li>M.S. in Computer Science, Rice University, August 2022-Jan 2024&lt;/li>
+&lt;li>M.S. in Computer Science, Rice University, August 2022-Dec 2023&lt;/li>
 &lt;li>B.S. in Computer Science, Wuhan University, September 2018-June 2022&lt;/li>
 &lt;/ul>
 &lt;h1 id="work-experience">Work Experience&lt;/h1>
@@ -1130,24 +1130,24 @@ Therefore, to load data only when the element is inside the container, we need t
 &lt;li>
 &lt;p>&lt;strong>Android &amp;amp; Front-end Engineering Intern&lt;/strong>, Sensetime, &lt;em>September 2021-July 2022&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Developed Mobile Meeting Room Appointment Platform, which is one of the most used enterprise applications both in the companies and its clients&lt;/li>
-&lt;li>Built Elevator Visualization Application, and it connects information of elevators in the building and offers advice for users&lt;/li>
-&lt;li>Developed license examining system of Pyramid SDK, used as the foundation of Central Control System and API for standard Android application in Sensetime&lt;/li>
-&lt;li>Built the core browsing functionality of Big Intelligent Screen with custom webview and worked closely with front-end team and product team on scope of future innovations&lt;/li>
+&lt;li>Oversaw and designed a mobile meeting room appointment system using &lt;strong>React&lt;/strong> and &lt;strong>TypeScript&lt;/strong>, which became one of the most used enterprise applications within the company and with 2 clients.&lt;/li>
+&lt;li>Conceptualized and developed Elevator Visualization Platform and Big Intelligent Screen with &lt;strong>Kotlin&lt;/strong>, making it easier for users to look up elevator status and meeting room reservation status.&lt;/li>
+&lt;li>Created and introduced logging module in Pyramid SDK; maintainers and developers could view device logs online rather than ADB and was able to store persistently.&lt;/li>
+&lt;li>Contributed to design of authorization module in Pyramid SDK with &lt;strong>Java&lt;/strong> and ensured only authorized devices could access internal data.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Computer Graphics Engineering Intern&lt;/strong>, CBIM, &lt;em>August 2021-September 2021&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Developed water graphics (surface, body and waves) and water bank with Vulkan&lt;/li>
+&lt;li>Programmed water graphics (surface, body and waves) and water bank with &lt;strong>Vulkan&lt;/strong> and &lt;strong>C++&lt;/strong> for architecture designers; beta tested for 10K users.&lt;/li>
 &lt;li>Implemented water real-time information synchronization with front-end team&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Front-end Engineering Intern&lt;/strong>, CBIM, &lt;em>December 2020-January 2021&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Developed a website using Vue.js and Vue-Router to interact with the REST API&lt;/li>
-&lt;li>Implemented the layout of website with ElementUI to show widgets and visualized project information in a dynamic map with LayerUI.js&lt;/li>
+&lt;li>Developed a website using &lt;strong>Vue.js&lt;/strong> and Vue-Router to interact with the REST API.&lt;/li>
+&lt;li>Built the layout of website with &lt;strong>ElementUI&lt;/strong> to show widgets and visualized project information in a dynamic map with &lt;strong>LayerUI.js&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1170,17 +1170,20 @@ Therefore, to load data only when the element is inside the container, we need t
 &lt;/ul>
 &lt;h1 id="projects">Projects&lt;/h1>
 &lt;h2 id="instant">Instant&lt;/h2>
-&lt;p>Golang, MySQL, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>&lt;/p>
+&lt;p>Golang, MySQL, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/instant-go%29" >GitHub&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>A Full-stack Micro Blog and Chatting Platform&lt;/li>
+&lt;li>Designed and implemented a &lt;strong>Fan Out on Write&lt;/strong> inbox using &lt;strong>Go&lt;/strong> and &lt;strong>MongoDB&lt;/strong> to retrieve user feed, decreasing time to fetch data comparing to Fan out on Read by over 3 times.&lt;/li>
+&lt;li>Designed and built hierarchical web session cache system with &lt;strong>Redis&lt;/strong> and &lt;strong>MongoDB&lt;/strong>; over 10 times faster than retrieving data from database directly.&lt;/li>
+&lt;li>Launched instant messaging system with &lt;strong>Web Socket&lt;/strong>.&lt;/li>
+&lt;li>Managed a fast web interface with &lt;strong>Vue 3&lt;/strong>, &lt;strong>TypeScript&lt;/strong>, and &lt;strong>Vite 3&lt;/strong>; achieved 98 on performance in lighthouse on the main page.&lt;/li>
 &lt;/ul>
 &lt;h2 id="macos-in-typescript">macOS in TypeScript&lt;/h2>
 &lt;p>React, SCSS, Animation, Typescript, &lt;em>November 2021-May 2022&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/macos-in-typescript%29" >GitHub&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>Used React.js for state management and lazy initialization to achieve better performance&lt;/li>
+&lt;li>Used &lt;strong>React.js&lt;/strong> for state management and lazy initialization to achieve better performance.&lt;/li>
 &lt;li>Built components from scratch, such as switch, image previewer, carousal and pop-over&lt;/li>
-&lt;li>Developed SCSS and canvas animations to make the interface friendly and smooth&lt;/li>
-&lt;li>Achieved 95(Performance), 100(Accessibility), 100(Best Practice), 100(SEO) in Chrome lighthouse&lt;/li>
+&lt;li>Developed &lt;strong>SCSS&lt;/strong> and canvas animations to make the interface friendly and smooth&lt;/li>
+&lt;li>Achieved 95 (Performance), 100 (Accessibility), 100 (Best Practice), 100 (SEO) in Chrome lighthouse&lt;/li>
 &lt;/ul>
 &lt;h2 id="cydrive-windows-client">CyDrive Windows Client&lt;/h2>
 &lt;p>C#, .Net Framework, WPF, XAML, &lt;em>September 2021-November 2021&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/CyDrive-windows%29" >GitHub&lt;/a>&lt;/p>
