@@ -1305,9 +1305,9 @@ Therefore, to load data only when the element is inside the container, we need t
 &lt;/ul>
 &lt;h1 id="skills">Skills&lt;/h1>
 &lt;ul>
-&lt;li>&lt;strong>Programing:&lt;/strong> (C++, Golang, Python, Java, JavaScript, Kotlin, C#, SQL)&lt;/li>
+&lt;li>&lt;strong>Programing:&lt;/strong> (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)&lt;/li>
 &lt;li>&lt;strong>Front-end Development:&lt;/strong> (Vue.js, React.js, Redux, Next.js, Node.js, Webpack, Vite, Element-UI, AntDesign)&lt;/li>
-&lt;li>&lt;strong>Libraries:&lt;/strong> (SpringBoot, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)&lt;/li>
+&lt;li>&lt;strong>Libraries:&lt;/strong> (SpringBoot, Redis, MongoDB, MySQL, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)&lt;/li>
 &lt;li>&lt;strong>Tools:&lt;/strong> (Visual Code, Visual Studio, IDEA, Android Studio)&lt;/li>
 &lt;li>&lt;strong>Computer Vision:&lt;/strong> (Image Classification, Semantic Segmentation, Incremental Learning)&lt;/li>
 &lt;li>&lt;strong>Natural Language Processing:&lt;/strong> (Transformers, Sentiment Analysis, Machine Reading Comprehension)&lt;/li>
