@@ -182,9 +182,9 @@ Python, Numpy, _September 2018-December 2018_
 
 # Skills
 
-- **Programing:** (C++, Golang, Python, Java, JavaScript, Kotlin, C#, SQL)
+- **Programing:** (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)
 - **Front-end Development:** (Vue.js, React.js, Redux, Next.js, Node.js, Webpack, Vite, Element-UI, AntDesign)
-- **Libraries:** (SpringBoot, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)
+- **Libraries:** (SpringBoot, Redis, MongoDB, MySQL, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)
 - **Tools:** (Visual Code, Visual Studio, IDEA, Android Studio)
 - **Computer Vision:** (Image Classification, Semantic Segmentation, Incremental Learning)
 - **Natural Language Processing:** (Transformers, Sentiment Analysis, Machine Reading Comprehension)
