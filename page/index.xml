@@ -48,7 +48,8 @@
 &lt;/ul>
 &lt;h1 id="projects">Projects&lt;/h1>
 &lt;h2 id="instant">Instant&lt;/h2>
-&lt;p>Golang, MySQL, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/instant-go%29" >GitHub&lt;/a>&lt;/p>
+&lt;p>Golang, MySQL, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/instant-go" target="_blank" rel="noopener"
+>GitHub&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Designed and implemented a &lt;strong>Fan Out on Write&lt;/strong> inbox using &lt;strong>Go&lt;/strong> and &lt;strong>MongoDB&lt;/strong> to retrieve user feed, decreasing time to fetch data comparing to Fan out on Read by over 3 times.&lt;/li>
 &lt;li>Designed and built hierarchical web session cache system with &lt;strong>Redis&lt;/strong> and &lt;strong>MongoDB&lt;/strong>; over 10 times faster than retrieving data from database directly.&lt;/li>
