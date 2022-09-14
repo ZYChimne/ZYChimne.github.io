@@ -175,9 +175,8 @@ Python, Numpy, _September 2018-December 2018_
 # Standard Test Scores
 
 - **IELTS: 7.5** (Listening: 8.5, Reading: 8.5, Writing: 7.0, Speaking: 6.0)
-- **GRE: 321+** (Verbal Reasoning: 151, Quantitative Reasoning: 170, Analytical Writing: )
+- **GRE: 321+** (Verbal Reasoning: 151, Quantitative Reasoning: 170, Analytical Writing: 4)
 - **CET-6: 594** (Listening: 208, Reading: 224, Writing: 162)
-
 - **CET-4: 665** (Listening: 249, Reading: 249, Writing: 167)
 
 # Skills
