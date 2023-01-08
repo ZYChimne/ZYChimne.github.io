@@ -12,8 +12,8 @@ menu:
 
 # Education
 
-- M.S. in Computer Science, Rice University, August 2022-Dec 2023
-- B.S. in Computer Science, Wuhan University, September 2018-June 2022
+- M.S. in Computer Science, Rice University, August 2022-Dec 2023 | GPA: 3.93/4.0
+- B.S. in Computer Science, Wuhan University, September 2018-June 2022 | GPA: 3.69/4.0
 
 # Work Experience
 
