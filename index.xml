@@ -1194,8 +1194,8 @@ Therefore, to load data only when the element is inside the container, we need t
 >Promise A+&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>About Me</title><link>https://zychimne.github.io/about-me/</link><pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/about-me/</guid><description>&lt;h1 id="education">Education&lt;/h1>
 &lt;ul>
-&lt;li>M.S. in Computer Science, Rice University, August 2022-Dec 2023&lt;/li>
-&lt;li>B.S. in Computer Science, Wuhan University, September 2018-June 2022&lt;/li>
+&lt;li>M.S. in Computer Science, Rice University, August 2022-Dec 2023 | GPA: 3.93/4.0&lt;/li>
+&lt;li>B.S. in Computer Science, Wuhan University, September 2018-June 2022 | GPA: 3.69/4.0&lt;/li>
 &lt;/ul>
 &lt;h1 id="work-experience">Work Experience&lt;/h1>
 &lt;ul>
