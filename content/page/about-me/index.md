@@ -17,6 +17,13 @@ menu:
 
 # Work Experience
 
+- **Full Stack Engineering Intern**, Alibaba Cloud, _May 2023-Aug 2023_
+
+  - Designed and developed an agent-based AI Question Answering System with Large Language Model with **Redis**, **PostgreSQL**, **GRPC**, which is used in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
+  - Built a QA & LLM Management System with **Python** and **NextJS**, enabling devops to manage datasets and apps with AI and update or switch LLM models.
+  - Created multiple LLM related Serverless deployment templates (embedding, chat completion, etc) for Function Computing, and they are used by 10K+ developers.
+  - Contributed to Kafka Console Development with **React**.
+
 - **Android & Front-end Engineering Intern**, Sensetime, _September 2021-July 2022_
 
   - Oversaw and designed a mobile meeting room appointment system using **React** and **TypeScript**,  which became one of the most used enterprise applications within the company and with 2 clients.
@@ -48,7 +55,7 @@ menu:
 
 ## Instant
 
-Golang, MySQL, Gin, Vue, TypeScript _March 2022-Present_, [GitHub](https://github.com/ZYChimne/instant-go)
+Golang, MongoDB, Gin, Vue, TypeScript _March 2022-Present_, [GitHub](https://github.com/ZYChimne/instant-go)
 
 - Designed and implemented a **Fan Out on Write** inbox using **Go** and **MongoDB** to retrieve user feed, decreasing time to fetch data comparing to Fan out on Read by over 3 times.
 - Designed and built hierarchical web session cache system with **Redis** and **MongoDB**; over 10 times faster than retrieving data from database directly.
@@ -181,7 +188,7 @@ Python, Numpy, _September 2018-December 2018_
 
 # Skills
 
-- **Programing:** (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)
+- **Programming:** (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)
 - **Front-end Development:** (Vue.js, React.js, Redux, Next.js, Node.js, Webpack, Vite, Element-UI, AntDesign)
 - **Libraries:** (SpringBoot, Redis, MongoDB, MySQL, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)
 - **Tools:** (Visual Code, Visual Studio, IDEA, Android Studio)
