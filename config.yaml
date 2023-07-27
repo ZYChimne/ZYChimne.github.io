@@ -49,7 +49,7 @@ params:
 
     sidebar:
         emoji: 🍇
-        subtitle: Computer Science, Wuhan University
+        subtitle: Computer Science, Rice University
         avatar:
             enabled: true
             local: true
