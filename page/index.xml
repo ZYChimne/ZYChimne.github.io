@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on ZYChimne</title><link>https://zychimne.github.io/page/</link><description>Recent content in Pages on ZYChimne</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zychimne.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://zychimne.github.io/about-me/</link><pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/about-me/</guid><description>&lt;h1 id="education">Education&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on ZYChimne</title><link>https://zychimne.github.io/page/</link><description>Recent content in Pages on ZYChimne</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zychimne.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://zychimne.github.io/about-me/</link><pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/about-me/</guid><description>&lt;h1 id="education">Education&lt;/h1>
 &lt;ul>
 &lt;li>M.S. in Computer Science, Rice University, August 2022-Dec 2023 | GPA: 3.93/4.0&lt;/li>
 &lt;li>B.S. in Computer Science, Wuhan University, September 2018-June 2022 | GPA: 3.69/4.0&lt;/li>
 &lt;/ul>
 &lt;h1 id="work-experience">Work Experience&lt;/h1>
 &lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Full Stack Engineering Intern&lt;/strong>, Alibaba Cloud, &lt;em>May 2023-Aug 2023&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Designed and developed an agent-based AI Question Answering System with Large Language Model with &lt;strong>Redis&lt;/strong>, &lt;strong>PostgreSQL&lt;/strong>, &lt;strong>GRPC&lt;/strong>, which is used in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.&lt;/li>
+&lt;li>Built a QA &amp;amp; LLM Management System with &lt;strong>Python&lt;/strong> and &lt;strong>NextJS&lt;/strong>, enabling devops to manage datasets and apps with AI and update or switch LLM models.&lt;/li>
+&lt;li>Created multiple LLM related Serverless deployment templates (embedding, chat completion, etc) for Function Computing, and they are used by 10K+ developers.&lt;/li>
+&lt;li>Contributed to Kafka Console Development with &lt;strong>React&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Android &amp;amp; Front-end Engineering Intern&lt;/strong>, Sensetime, &lt;em>September 2021-July 2022&lt;/em>&lt;/p>
 &lt;ul>
@@ -48,7 +57,7 @@
 &lt;/ul>
 &lt;h1 id="projects">Projects&lt;/h1>
 &lt;h2 id="instant">Instant&lt;/h2>
-&lt;p>Golang, MySQL, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/instant-go" target="_blank" rel="noopener"
+&lt;p>Golang, MongoDB, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/instant-go" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Designed and implemented a &lt;strong>Fan Out on Write&lt;/strong> inbox using &lt;strong>Go&lt;/strong> and &lt;strong>MongoDB&lt;/strong> to retrieve user feed, decreasing time to fetch data comparing to Fan out on Read by over 3 times.&lt;/li>
@@ -175,7 +184,7 @@
 &lt;/ul>
 &lt;h1 id="skills">Skills&lt;/h1>
 &lt;ul>
-&lt;li>&lt;strong>Programing:&lt;/strong> (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)&lt;/li>
+&lt;li>&lt;strong>Programming:&lt;/strong> (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)&lt;/li>
 &lt;li>&lt;strong>Front-end Development:&lt;/strong> (Vue.js, React.js, Redux, Next.js, Node.js, Webpack, Vite, Element-UI, AntDesign)&lt;/li>
 &lt;li>&lt;strong>Libraries:&lt;/strong> (SpringBoot, Redis, MongoDB, MySQL, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)&lt;/li>
 &lt;li>&lt;strong>Tools:&lt;/strong> (Visual Code, Visual Studio, IDEA, Android Studio)&lt;/li>

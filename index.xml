@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ZYChimne</title><link>https://zychimne.github.io/</link><description>Recent content on ZYChimne</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zychimne.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Algorithms</title><link>https://zychimne.github.io/posts/algorithms/</link><pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/algorithms/</guid><description>&lt;h2 id="tree">Tree&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ZYChimne</title><link>https://zychimne.github.io/</link><description>Recent content on ZYChimne</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zychimne.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Algorithms</title><link>https://zychimne.github.io/posts/algorithms/</link><pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/posts/algorithms/</guid><description>&lt;h2 id="tree">Tree&lt;/h2>
 &lt;h3 id="binary-tree">Binary Tree&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1200,6 +1200,15 @@ Therefore, to load data only when the element is inside the container, we need t
 &lt;h1 id="work-experience">Work Experience&lt;/h1>
 &lt;ul>
 &lt;li>
+&lt;p>&lt;strong>Full Stack Engineering Intern&lt;/strong>, Alibaba Cloud, &lt;em>May 2023-Aug 2023&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Designed and developed an agent-based AI Question Answering System with Large Language Model with &lt;strong>Redis&lt;/strong>, &lt;strong>PostgreSQL&lt;/strong>, &lt;strong>GRPC&lt;/strong>, which is used in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.&lt;/li>
+&lt;li>Built a QA &amp;amp; LLM Management System with &lt;strong>Python&lt;/strong> and &lt;strong>NextJS&lt;/strong>, enabling devops to manage datasets and apps with AI and update or switch LLM models.&lt;/li>
+&lt;li>Created multiple LLM related Serverless deployment templates (embedding, chat completion, etc) for Function Computing, and they are used by 10K+ developers.&lt;/li>
+&lt;li>Contributed to Kafka Console Development with &lt;strong>React&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
 &lt;p>&lt;strong>Android &amp;amp; Front-end Engineering Intern&lt;/strong>, Sensetime, &lt;em>September 2021-July 2022&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Oversaw and designed a mobile meeting room appointment system using &lt;strong>React&lt;/strong> and &lt;strong>TypeScript&lt;/strong>, which became one of the most used enterprise applications within the company and with 2 clients.&lt;/li>
@@ -1242,7 +1251,7 @@ Therefore, to load data only when the element is inside the container, we need t
 &lt;/ul>
 &lt;h1 id="projects">Projects&lt;/h1>
 &lt;h2 id="instant">Instant&lt;/h2>
-&lt;p>Golang, MySQL, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/instant-go" target="_blank" rel="noopener"
+&lt;p>Golang, MongoDB, Gin, Vue, TypeScript &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/instant-go" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Designed and implemented a &lt;strong>Fan Out on Write&lt;/strong> inbox using &lt;strong>Go&lt;/strong> and &lt;strong>MongoDB&lt;/strong> to retrieve user feed, decreasing time to fetch data comparing to Fan out on Read by over 3 times.&lt;/li>
@@ -1369,7 +1378,7 @@ Therefore, to load data only when the element is inside the container, we need t
 &lt;/ul>
 &lt;h1 id="skills">Skills&lt;/h1>
 &lt;ul>
-&lt;li>&lt;strong>Programing:&lt;/strong> (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)&lt;/li>
+&lt;li>&lt;strong>Programming:&lt;/strong> (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)&lt;/li>
 &lt;li>&lt;strong>Front-end Development:&lt;/strong> (Vue.js, React.js, Redux, Next.js, Node.js, Webpack, Vite, Element-UI, AntDesign)&lt;/li>
 &lt;li>&lt;strong>Libraries:&lt;/strong> (SpringBoot, Redis, MongoDB, MySQL, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)&lt;/li>
 &lt;li>&lt;strong>Tools:&lt;/strong> (Visual Code, Visual Studio, IDEA, Android Studio)&lt;/li>
