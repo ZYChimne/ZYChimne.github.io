@@ -19,7 +19,7 @@ menu:
 
 - **Full Stack Engineering Intern**, Alibaba Cloud, _May 2023-Aug 2023_
 
-  - Designed and developed an agent-based AI Question Answering System with Large Language Model with **Redis**, **PostgreSQL**, **GRPC**, which is used in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
+  - Designed and developed an agent-based AI Question Answering System with Large Language Model and **Redis**, **PostgreSQL**, **GRPC**, which is used in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
   - Built a QA & LLM Management System with **Python** and **NextJS**, enabling devops to manage datasets and apps with AI and update or switch LLM models.
   - Created multiple LLM related Serverless deployment templates (embedding, chat completion, etc) for Function Computing, and they are used by 10K+ developers.
   - Contributed to Kafka Console Development with **React**.
