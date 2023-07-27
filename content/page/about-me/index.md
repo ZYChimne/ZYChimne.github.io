@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 description: "Curriculum Vitae"
-date: "2022-05-10"
+# date: "2022-05-10"
 slug: "about-me"
 menu:
   main:
