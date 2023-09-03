@@ -19,7 +19,7 @@ menu:
 
 - **Full Stack Engineering Intern**, Alibaba Cloud, _May 2023-Aug 2023_
 
-  - Designed and developed an AI Question Answering System using AI models, **Redis**, **PostgreSQL**, and **GRPC**, deployed in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
+  - Designed and developed an AI Question Answering System using LLMs, **Redis**, **PostgreSQL**, and **GRPC**, deployed in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
   - Created an [AI-native App Management System](https://github.com/devsapp/agentcraft) with **Python** and **NextJS**, with over 1K daily API calls in August 2023 and a growing user base.
   - Developed Serverless deployment templates for LLM-related applications, utilized by over 10K developers on Function Computing.
   - Contributed to the development of Kafka Console using **React**.
@@ -63,7 +63,7 @@ Golang, MongoDB, Gin, TypeScript, Vue _March 2022-Present_, [github/instant-go](
 - Implemented a real-time messaging system using **Web Sockets**.
 - Designed a high-performance web interface with **Vue 3**, **TypeScript**, and **Vite 3**, achieving a 98 Lighthouse performance score.
 
-## AgentCraft | AI-native App Management System Using LLM
+## AgentCraft | AI-Native App Management System Using LLM
 
 Python, FastAPI, PostgreSQL, Redis, _May 2023- August 2023, [github/agentcraft](https://github.com/devsapp/agentcraft)
 
