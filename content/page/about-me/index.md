@@ -12,172 +12,169 @@ menu:
 
 # Education
 
-- M.S. in Computer Science, Rice University, August 2022-Dec 2023 | GPA: 3.93/4.0
+- M.S. in Computer Science, Rice University, August 2022-Dec 2023 | GPA: 3.86/4.0
 - B.S. in Computer Science, Wuhan University, September 2018-June 2022 | GPA: 3.69/4.0
 
 # Work Experience
 
 - **Full Stack Engineering Intern**, Alibaba Cloud, _May 2023-Aug 2023_
 
-  - Designed and developed an agent-based AI Question Answering System with Large Language Model and **Redis**, **PostgreSQL**, **GRPC**, which is used in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
-  - Built a QA & LLM Management System with **Python** and **NextJS**, enabling devops to manage datasets and apps with AI and update / switch LLM models.
-  - Created multiple LLM related Serverless deployment templates (embedding, chat completion, etc) for Function Computing, and they are used by 10K+ developers.
-  - Contributed to Kafka Console Development with **React**.
+  - Designed and developed an AI Question Answering System using AI models, **Redis**, **PostgreSQL**, and **GRPC**, deployed in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
+  - Created an [AI-native App Management System](https://github.com/devsapp/agentcraft) with **Python** and **NextJS**, with over 1K daily API calls in August 2023 and a growing user base.
+  - Developed Serverless deployment templates for LLM-related applications, utilized by over 10K developers on Function Computing.
+  - Contributed to the development of Kafka Console using **React**.
 
 - **Android & Front-end Engineering Intern**, Sensetime, _September 2021-July 2022_
 
-  - Oversaw and designed a mobile meeting room appointment system using **React** and **TypeScript**,  which became one of the most used enterprise applications within the company and with 2 clients.
-  - Conceptualized and developed Elevator Visualization Platform and Big Intelligent Screen with **Kotlin**, making it easier for users to look up elevator status and meeting room reservation status.
-  - Created and introduced logging module in Pyramid SDK; maintainers and developers could view device logs online rather than ADB and was able to store persistently.
-  - Contributed to design of authorization module in Pyramid SDK with **Java** and ensured only authorized devices could access internal data.
+  - Led a mobile meeting room appointment system using **React** and **TypeScript**, becoming a widely adopted enterprise solution with 2 clients.
+  - Developed an Elevator Visualization Platform and Big Intelligent Screen using **Kotlin**, improving elevator and meeting room status accessibility.
+  - Introduced a logging module in Pyramid SDK, enabling online device log viewing and persistent storage, reducing reliance on Android Debug Bridge.
+  - Contributed to the design of an authorization module in Pyramid SDK using **Java**, enhancing data security by limiting access to authorized devices.
   
 - **Computer Graphics Engineering Intern**, CBIM, _August 2021-September 2021_
 
-  - Programmed water graphics (surface, body and waves) and water bank with **Vulkan** and **C++** for architecture designers; beta tested for 10K users.
-  - Implemented water real-time information synchronization with front-end team
+  - Developed water graphics and bank features using **Vulkan** and **C++** for architecture designers, undergoing successful beta testing with 10K users.
+  - Achieved real-time water information synchronization with the web development team.
 
 - **Front-end Engineering Intern**, CBIM, _December 2020-January 2021_
-  - Developed a website using **Vue.js** and Vue-Router to interact with the REST API.
-  - Built the layout of website with **ElementUI** to show widgets and visualized project information in a dynamic map with **LayerUI.js**.
+  - Created a website using **Vue.js** and **Vue-Router** for REST API interaction.
+  - Designed the website layout using **ElementUI** to display widgets and visualized project information dynamically using **LayerUI.js**.
 
 # Research Experience
 
-- **Researcher**, WHU IR LAB (Advised by Chenliang Li), _September 2020-June 2021_
-  - Tried to intergrade Entity information in Embedding Layer using Named Entity Information to improve the model information retrieval performance on SQuAD 2.0
-  - Explored cross view training by training the origin model and summary model together and assembling their result to improve model performance
-  - Explored Linear Complexity Attention mechanism with minimal loss on accuracy performance while time consumption reduced by 50%
-  - Used Contrast Learning and improved Chinese BERT Classification Model on debate dataset by 16% comparing to baseline BERT
 - **Researcher**, SYSU (Advised by Ruixuan Wang), _June 2021-November 2021_
-  - Explored feature map smooth mapping with attention information
-  - Visualized model architecture and experiment results
+  - Investigated feature map smooth mapping with attention information.
+  - Created visual representations of model architecture and experimental results.
+
+- **Researcher**, WHU IR LAB (Advised by Chenliang Li), _September 2020-June 2021_
+  - Enhanced model information retrieval in SQuAD 2.0 by integrating named entity information into the Embedding Layer.
+  - Improved model performance by exploring cross-view training, assembling the origin model and summary model.
+  - Achieved a 50% reduction in time consumption with minimal loss in accuracy by implementing the Linear Complexity Attention mechanism.
+  - Enhanced a Chinese BERT Classification Model for debate datasets by 16% using Contrast Learning compared to the baseline BERT.
 
 # Projects
 
-## Instant
+## Instant | Social Media Platform
 
-Golang, MongoDB, Gin, Vue, TypeScript _March 2022-Present_, [GitHub](https://github.com/ZYChimne/instant-go)
+Golang, MongoDB, Gin, TypeScript, Vue _March 2022-Present_, [github/instant-go](https://github.com/ZYChimne/instant-go)
 
-- Designed and implemented a **Fan Out on Write** inbox using **Go** and **MongoDB** to retrieve user feed, decreasing time to fetch data comparing to Fan out on Read by over 3 times.
-- Designed and built hierarchical web session cache system with **Redis** and **MongoDB**; over 10 times faster than retrieving data from database directly.
-- Launched instant messaging system with **Web Socket**.
-- Managed a fast web interface with **Vue 3**, **TypeScript**, and **Vite 3**; achieved 98 on performance in lighthouse on the main page.
+- Developed a **Fan Out on Write** inbox in **Go** and **MongoDB**, reducing data retrieval time by over 3 times compared to Fan Out on Read.
+- Created an efficient hierarchical web session cache system using **Redis** and **MongoDB**, delivering data retrieval speeds over 10 times faster than direct database access.
+- Implemented a real-time messaging system using **Web Sockets**.
+- Designed a high-performance web interface with **Vue 3**, **TypeScript**, and **Vite 3**, achieving a 98 Lighthouse performance score.
 
-## macOS in TypeScript
+## AgentCraft | AI-native App Management System Using LLM
 
-React, SCSS, Animation, Typescript, _November 2021-May 2022_, [GitHub](https://github.com/ZYChimne/macos-in-typescript)
+Python, FastAPI, PostgreSQL, Redis, _May 2023- August 2023, [github/agentcraft](https://github.com/devsapp/agentcraft)
 
-- Used **React.js** for state management and lazy initialization to achieve better performance.
-- Built components from scratch, such as switch, image previewer, carousal and pop-over
-- Developed **SCSS** and canvas animations to make the interface friendly and smooth
-- Achieved 95 (Performance), 100 (Accessibility), 100 (Best Practice), 100 (SEO) in Chrome lighthouse
+- Designed and deployed a system with 1K daily API calls on Alibaba Cloud (August 2023).
+- Enabled support for multiple LLMs, including native OpenAI API and Huggingface Models with [adapters](https://github.com/devsapp/fc-llm-image-source).
+- Implemented text segmentation and vectorization using a [custom **SentenceTransformers** service](https://github.com/devsapp/fc-embedding-api) and **PostgreSQL**.
+- Developed a distributed LLM cache and history system using **Redis**.
 
-## CyDrive Windows Client
+## macOS in TypeScript | Web Page with MacOS Interface
 
-C#, .Net Framework, WPF, XAML, _September 2021-November 2021_, [GitHub](https://github.com/ZYChimne/CyDrive-windows)
+React, SCSS, Animation, Typescript, _November 2021-May 2022_, [github/macos-in-typescript](https://github.com/ZYChimne/macos-in-typescript)
 
-- Implemented all page layouts and set up navigation logic of the application
-- Page design was completely grid-based, showing great flexibility and robustness on all kinds of devices
-- Built basic functions including login/out, sign up, new/delete, rename, multi-select, upload/download and etc.
+- Utilized **React.js** for efficient state management and lazy initialization to enhance performance.
+- Designed custom components including switches, image previewers, carousels, and pop-overs.
+- Implemented **SCSS** and canvas animations for a user-friendly and smooth interface.
+- Achieved outstanding Chrome Lighthouse scores: 95 for Performance, 100 for Accessibility, 100 for Best Practices, and 100 for SEO.
 
-## Music Player
+## CyDrive Windows Client | Cloud Drive Windows Client
 
-Kotlin, Android, _June 2021-August 2021_
+C#, .Net Framework, WPF, XAML, _September 2021-November 2021_, [github/CyDrive-windows](https://github.com/ZYChimne/CyDrive-windows)
 
-- Implemented MVVM design pattern, updating data by Live Data and Data Binding
-- Built a database to keep the user information and recover them on Application opens
-- Used Repository to interact with the database to implement querying and search data of the database
-- Integrated RxJava to check whether permission is granted and notify the activity
-- Used ContentResolver to query the MP3 file in the device and filter the media file whose length is shorter than two minutes
-- Built with Launch and Dispatch for multi-thread to improve application performance and thread safety when updating notification and obtaining permissions
-- Implemented module development pattern by dividing the music player model into permissionModule, mediaModule, repositoryModule and etc.
+- Created page layouts and navigation logic for the application.
+- Utilized a flexible grid-based design for optimal performance on various devices.
+- Developed essential features such as user authentication, file management (new/delete/rename), multi-select, and file operations (upload/download).
 
-## Ai-Debater Classification Model
+## AI-Debater Classification Model | Text Classification Model
 
-Python, Pytorch, Bert, Transformers, _June 2021_, [GitHub](https://github.com/ZYChimne/AI-Debater)
+Python, Pytorch, Bert, Transformers, _June 2021_, [github/AI-Debater](https://github.com/ZYChimne/AI-Debater)
 
-- Used adapted contrast learning and smoothed dropout strategies and evaluate our method on Bert and variances of Bert
-- Improved model performance from 78% to 92% in original baseline test setting and from 74% to 80.3% in test dataset setting
+- Employed adapted contrast learning and smoothed dropout techniques to enhance Bert and its variants.
+- Achieved significant performance improvements, raising accuracy from 78% to 92% in the original baseline test and from 74% to 80.3% in the test dataset setting.
 
-## Dropout Against Deep Leakage from Gradients
+## Dropout Against Deep Leakage from Gradients | Research
 
 Python, Pytorch, _June 2021_
 
-- Re-implemented Deep Leakage from Gradients (NeurIPS2019) and evaluate the data leaking problem on commonly used datasets
-- Explored new ways to prevent detecting and recovering original raw data, and eventually used Dropout to prevent Deep Leakage from Gradients converges to original local data with minimal model performance loss
+- Re-implemented Deep Leakage from Gradients (NeurIPS2019) and assessed data leakage issues on standard datasets.
+- Innovated methods to thwart the detection and recovery of raw data, successfully utilizing Dropout to prevent Deep Leakage from Gradients from converging to original local data with minimal model performance loss.
 
-## Cminus Compiler
+## Cminus Compiler | Subset of *C* Compiler
 
-C, Flex, Linux, Bison, Cmake, Linux, _March 2021-June 2021_, [GitHub](https://github.com/ZYChimne/CMINUS-Compiler)
+C, Flex, Linux, Bison, Cmake, Linux, _March 2021-June 2021_, [github/CMINUS-Compiler](https://github.com/ZYChimne/CMINUS-Compiler)
 
-- Designed rules and regular expressions for lexical analysis and syntax analysis to generate Abstract Syntax Tree and calculate expression results
-- Implemented exception analysis to find out and highlight error types locations, and details in code
-- Built regular expression match patterns to support float in scientific notation and integers in binary, octonary and hexadecimal
+- Created rules and regular expressions for lexical and syntax analysis, generating Abstract Syntax Trees and computing expressions.
+- Implemented error analysis, pinpointing error types, locations, and details in code.
+- Developed regex patterns for handling scientific notation floats and binary, octal, and hexadecimal integers.
 
-## Feature Cross Recommender with Attention
+## Feature Cross Recommender with Attention | Research
 
-Python, Tensorflow, DCN, _March 2021_, [GitHub](<(https://github.com/ZYChimne/Recommender-with-Attention)>)
+Python, Tensorflow, DCN, _March 2021_, [github/Recommender-with-Attention](<(https://github.com/ZYChimne/Recommender-with-Attention)>)
 
-- Re-implemented Deep & Cross Network on MovieLens, referring to Deep & Cross Network for Ad Click Predictions (KDD2017)
-- Explored ways of feature smooth and adapt matrix production in the end, which is able to reduce the parameters and inference time of the model, while increasing its performance by reducing RMSE by 0.004
+- Re-implemented Deep & Cross Network on MovieLens, following the approach from Deep & Cross Network for Ad Click Predictions (KDD2017).
+- Enhanced model performance by optimizing feature smoothing and adapting matrix production, reducing parameters, inference time, and RMSE by 0.004.
 
-## Bert in Pytorch
+## Bert in Pytorch | Research
 
 Python, Pytorch, Transformers, Bert, _March 2021_
 
-- Implemented a Bidirectional Encoder Representations from Transformers in Pytorch, which is able to run a variety of tasks, including mask language modeling and question answering
+- Developed a versatile Bidirectional Encoder Representations from Transformers (BERT) model in PyTorch, supporting tasks such as masked language modeling and question answering.
 
-## Multi-elevator Control System
+## Multi-elevator Control System | Embedding System
 
-C, AT89C52, Keil, Proteus, _September 2020-December 2020_, [GitHub](https://github.com/ZYChimne/MultiElevator)
+C, AT89C52, Keil, Proteus, _September 2020-December 2020_, [github/MultiElevator](https://github.com/ZYChimne/MultiElevator)
 
-- Designed circuit blueprint connecting AT89C52 and devices
-- Designed multi-elevator control system which is able to assign the most appropriate one of the two elevators in a four-floor building
+- Created a circuit blueprint for connecting AT89C52 microcontroller with various devices.
+- Designed a multi-elevator control system for efficient elevator assignment in a four-floor building, optimizing passenger flow.
 
-## Question Answering System
+## Question Answering System | REST API
 
-Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, _September 2020-December 2020_, [GitHub](https://github.com/ZYChimne/MRCWeb)
+Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, _September 2020-December 2020_, [github/MRCWeb](https://github.com/ZYChimne/MRCWeb)
 
-- Developed a MVC application with SpringBoot and Access MYSQL Database with JPA
-- Designed and implemented grid-based pages with Bootstrap that were adaptive to both desktop and mobile devices
-- Used Python and Transformers to build Bert-based information retrieval model
+- Created an MVC application using SpringBoot, connecting to a MySQL database through JPA.
+- Designed responsive grid-based pages with Bootstrap for desktop and mobile compatibility.
+- Developed a Bert-based information retrieval model using Python and Transformers.
 
-## MIPS Multi-cycle Central Processing Unit
+## MIPS Multi-cycle Central Processing Unit | CPU
 
-Verilog HDL, Modelsim, _March 2020-June 2020_, [GitHub](https://github.com/ZYChimne/CPU-implement)
+Verilog HDL, Modelsim, _March 2020-June 2020_, [github/CPU-implement](https://github.com/ZYChimne/CPU-implement)
 
-- Built a CPU supporting 26 MIPS instructions, including add, sub, sw, lw, beq, bne, j, jr, jal
-- Implemented prediction unit so that pipeline did not have to be stalled
-- Designed a forward unit and it was able to forward data to the next unit to improve performance
-- Developed a hazard unit that was able to flush or stall pipeline to ensure that every instruction was executed properly
+- Constructed a CPU supporting 26 MIPS instructions (e.g., add, sub, sw, lw, beq, bne, j, jr, jal).
+- Implemented a prediction unit to prevent pipeline stalls.
+- Designed a forward unit for data forwarding, enhancing performance.
+- Developed a hazard unit to ensure proper execution of all instructions by flushing or stalling the pipeline as needed.
 
-## I'm Hungry
+## I'm Hungry | Restaurant Order Placement Application
 
-Swift, iOS, _March 2020-June 2020_, [GitHub](https://github.com/ZYChimne/I-m-Hungry)
+Swift, iOS, _March 2020-June 2020_, [github/I-m-Hungry](https://github.com/ZYChimne/I-m-Hungry)
 
-- A restaurant order application
-- Used SQLite to store order data and restaurant data
+- Used SQLite for data management.
 
 ## FTP Client
 
 C++, Qt, Websocket, Multithread, _July 2019-August 2019_
 
-- Implemented client user interface and logics using multi-thread and event to ensure the safety of UI thread
-- Developed download function supporting pause and resume using websocket
+- Created a client user interface with thread management for UI safety.
+- Designed a download function with WebSocket support, enabling pause and resume capabilities.
 
-## Draw and Guess
+## Draw and Guess | Android Application
 
 Kotlin, Android, _January 2019-February 2019_
 
-- Used MVVM design pattern, updating data by Live Data and Data Binding
-- Used ViewModelFactory as the constructor for ViewModel with Parameters
+- Applied MVVM design pattern with LiveData and Data Binding for data updates.
+- Utilized ViewModelFactory to construct ViewModels with parameters.
 
 ## Convolution Neural Network in Numpy
 
 Python, Numpy, _September 2018-December 2018_
 
-- Implemented a Convolution Neural Network using Numpy to calculate matrix production and back propagation
-- Achieved an accuracy of 97% on MNIST Dataset
-- Explored different settings of batch normalization and learning rate
+- Created a Convolutional Neural Network (CNN) using Numpy for matrix operations and backpropagation.
+- Attained a 97% accuracy on the MNIST Dataset.
+- Investigated various batch normalization and learning rate settings for optimization.
 
 # Standard Test Scores
 
@@ -188,15 +185,14 @@ Python, Numpy, _September 2018-December 2018_
 
 # Skills
 
-- **Programming:** (C++, Golang, Python, Java, TypeScript, Kotlin, C#, SQL)
-- **Front-end Development:** (Vue.js, React.js, Redux, Next.js, Node.js, Webpack, Vite, Element-UI, AntDesign)
-- **Libraries:** (SpringBoot, Redis, MongoDB, MySQL, Pytorch, Tensorflow, Matplotlib, Numpy, Pandas)
-- **Tools:** (Visual Code, Visual Studio, IDEA, Android Studio)
+- **Programming Language:** (C++, Golang, Python, Java, TypeScript, Kotlin, SQL)
+- **Databases:** (MySQL, MongoDB, PostgreSQL, Redis)
+- **Front-end Development:** (Vue.js, React.js, Next.js, Node.js, Webpack, Vite, MUI, Element-UI, AntDesign)
+- **Backend Development:** (Gin, FastAPI, SpringBoot)
+- **AI Frameworks:** (Pytorch, Tensorflow, Transformers, Matplotlib, Numpy, Pandas)
 - **Computer Vision:** (Image Classification, Semantic Segmentation, Incremental Learning)
 - **Natural Language Processing:** (Transformers, Sentiment Analysis, Machine Reading Comprehension)
 - **Recommenders:** (Feature Cross Learning, Knowledge Graph)
-- **Computer Graphics:** (Vulkan, OpenGL)
-- **Mobile Development** (Android, iOS)
 
 # Experiences
 
