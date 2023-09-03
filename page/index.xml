@@ -8,7 +8,7 @@
 &lt;li>
 &lt;p>&lt;strong>Full Stack Engineering Intern&lt;/strong>, Alibaba Cloud, &lt;em>May 2023-Aug 2023&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>Designed and developed an AI Question Answering System using AI models, &lt;strong>Redis&lt;/strong>, &lt;strong>PostgreSQL&lt;/strong>, and &lt;strong>GRPC&lt;/strong>, deployed in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.&lt;/li>
+&lt;li>Designed and developed an AI Question Answering System using LLMs, &lt;strong>Redis&lt;/strong>, &lt;strong>PostgreSQL&lt;/strong>, and &lt;strong>GRPC&lt;/strong>, deployed in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.&lt;/li>
 &lt;li>Created an &lt;a class="link" href="https://github.com/devsapp/agentcraft" target="_blank" rel="noopener"
 >AI-native App Management System&lt;/a> with &lt;strong>Python&lt;/strong> and &lt;strong>NextJS&lt;/strong>, with over 1K daily API calls in August 2023 and a growing user base.&lt;/li>
 &lt;li>Developed Serverless deployment templates for LLM-related applications, utilized by over 10K developers on Function Computing.&lt;/li>
@@ -68,7 +68,7 @@
 &lt;li>Implemented a real-time messaging system using &lt;strong>Web Sockets&lt;/strong>.&lt;/li>
 &lt;li>Designed a high-performance web interface with &lt;strong>Vue 3&lt;/strong>, &lt;strong>TypeScript&lt;/strong>, and &lt;strong>Vite 3&lt;/strong>, achieving a 98 Lighthouse performance score.&lt;/li>
 &lt;/ul>
-&lt;h2 id="agentcraft--ai-native-app-management-system-using-llm">AgentCraft | AI-native App Management System Using LLM&lt;/h2>
+&lt;h2 id="agentcraft--ai-native-app-management-system-using-llm">AgentCraft | AI-Native App Management System Using LLM&lt;/h2>
 &lt;p>Python, FastAPI, PostgreSQL, Redis, _May 2023- August 2023, &lt;a class="link" href="https://github.com/devsapp/agentcraft" target="_blank" rel="noopener"
 >github/agentcraft&lt;/a>&lt;/p>
 &lt;ul>
