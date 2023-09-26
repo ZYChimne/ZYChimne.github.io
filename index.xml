@@ -321,7 +321,7 @@ Other hybrid sorts include introsort, timsort, etc.&lt;/p>
 &lt;/span>&lt;span class="lnt">13
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;ctime&amp;gt; &lt;/span>&lt;span class="cp">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;ctime&amp;gt;&lt;/span>&lt;span class="cp">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span class="cp">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;random&amp;gt;&lt;/span>&lt;span class="cp">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>&lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="p">;&lt;/span>
@@ -1669,8 +1669,8 @@ Multi-head attention contains multiple self-attention layers, and different head
 The Add part is very similar to Residual Connection, which can pass the information of the former layer to the next one.&lt;/li>
 &lt;/ul></description></item><item><title>About Me</title><link>https://zychimne.github.io/about-me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/about-me/</guid><description>&lt;h1 id="education">Education&lt;/h1>
 &lt;ul>
-&lt;li>M.S. in Computer Science, Rice University, August 2022-Dec 2023 | GPA: 3.82/4.0&lt;/li>
-&lt;li>B.S. in Computer Science, Wuhan University, September 2018-June 2022 | GPA: 3.69/4.0&lt;/li>
+&lt;li>MS in Computer Science, Rice University, August 2022-Dec 2023 | GPA: 3.82/4.0&lt;/li>
+&lt;li>BS in Computer Science, Wuhan University, September 2018-June 2022 | GPA: 3.69/4.0&lt;/li>
 &lt;/ul>
 &lt;h1 id="work-experience">Work Experience&lt;/h1>
 &lt;ul>
