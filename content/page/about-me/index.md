@@ -17,6 +17,14 @@ menu:
 
 # Work Experience
 
+- **Teyvat Traveler**, Genshin Impact, _September 2021-Present_
+
+  - Explored the seven nations of Teyvat, including Mondstadt, Liyue, Inazuma, Sumeru and Fontaine, and solved numerous puzzles and challenges along the way.
+  - Battled against powerful enemies, including the Abyss Order, Fatui Harbingers, and other dangerous foes.
+  - Collected and upgraded a wide variety of characters and weapons, and learned to use them effectively in combat.
+  - Completed numerous quests and side missions, helping people and solving problems all over Teyvat.
+  - Learned about the history and culture of each nation, and made many new friends along the way.
+
 - **Full Stack Engineering Intern**, Alibaba Cloud, _May 2023-Aug 2023_
 
   - Designed and developed an AI Question Answering System using LLMs, **Redis**, **PostgreSQL**, and **GRPC**, deployed in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
