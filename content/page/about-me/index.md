@@ -66,10 +66,10 @@ menu:
 
 Golang, MongoDB, Gin, TypeScript, Vue _March 2022-Present_, [github/instant-go](https://github.com/ZYChimne/instant-go)
 
-- Developed a **Fan Out on Write** inbox in **Go** and **MongoDB**, reducing data retrieval time by over 3 times compared to Fan Out on Read.
-- Created an efficient hierarchical web session cache system using **Redis** and **MongoDB**, delivering data retrieval speeds over 10 times faster than direct database access.
-- Implemented a real-time messaging system using **Web Sockets**.
-- Designed a high-performance web interface with **Vue 3**, **TypeScript**, and **Vite 3**, achieving a 98 Lighthouse performance score.
+- Developed a **Fan Out on Write** inbox in **Go** and **PostgreSQL**, reducing data retrieval time by over 3 times compared to Fan Out on Read.
+- Created an efficient hierarchical web session cache system using **Redis** and **Local Cache**, delivering data retrieval speeds over 10 times faster than direct database access.
+- Implemented a real-time messaging system using **HTTP 2**.
+- Designed a high-performance web interface with **NextJS**, **TypeScript**, and **React**, achieving a 98 Lighthouse performance score.
 
 ## AgentCraft | AI-Native App Management System Using LLM
 
