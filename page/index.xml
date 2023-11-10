@@ -73,10 +73,10 @@
 &lt;p>Golang, MongoDB, Gin, TypeScript, Vue &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/instant-go" target="_blank" rel="noopener"
 >github/instant-go&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>Developed a &lt;strong>Fan Out on Write&lt;/strong> inbox in &lt;strong>Go&lt;/strong> and &lt;strong>MongoDB&lt;/strong>, reducing data retrieval time by over 3 times compared to Fan Out on Read.&lt;/li>
-&lt;li>Created an efficient hierarchical web session cache system using &lt;strong>Redis&lt;/strong> and &lt;strong>MongoDB&lt;/strong>, delivering data retrieval speeds over 10 times faster than direct database access.&lt;/li>
-&lt;li>Implemented a real-time messaging system using &lt;strong>Web Sockets&lt;/strong>.&lt;/li>
-&lt;li>Designed a high-performance web interface with &lt;strong>Vue 3&lt;/strong>, &lt;strong>TypeScript&lt;/strong>, and &lt;strong>Vite 3&lt;/strong>, achieving a 98 Lighthouse performance score.&lt;/li>
+&lt;li>Developed a &lt;strong>Fan Out on Write&lt;/strong> inbox in &lt;strong>Go&lt;/strong> and &lt;strong>PostgreSQL&lt;/strong>, reducing data retrieval time by over 3 times compared to Fan Out on Read.&lt;/li>
+&lt;li>Created an efficient hierarchical web session cache system using &lt;strong>Redis&lt;/strong> and &lt;strong>Local Cache&lt;/strong>, delivering data retrieval speeds over 10 times faster than direct database access.&lt;/li>
+&lt;li>Implemented a real-time messaging system using &lt;strong>HTTP 2&lt;/strong>.&lt;/li>
+&lt;li>Designed a high-performance web interface with &lt;strong>NextJS&lt;/strong>, &lt;strong>TypeScript&lt;/strong>, and &lt;strong>React&lt;/strong>, achieving a 98 Lighthouse performance score.&lt;/li>
 &lt;/ul>
 &lt;h2 id="agentcraft--ai-native-app-management-system-using-llm">AgentCraft | AI-Native App Management System Using LLM&lt;/h2>
 &lt;p>Python, FastAPI, PostgreSQL, Redis, _May 2023- August 2023, &lt;a class="link" href="https://github.com/devsapp/agentcraft" target="_blank" rel="noopener"
