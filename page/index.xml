@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on ZYChimne</title><link>https://zychimne.github.io/page/</link><description>Recent content in Pages on ZYChimne</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zychimne.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Archives</title><link>https://zychimne.github.io/archives/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/archives/</guid><description/></item><item><title>About Me</title><link>https://zychimne.github.io/about-me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/about-me/</guid><description>&lt;h1 id="education">Education&lt;/h1>
 &lt;ul>
-&lt;li>MS in Computer Science, Rice University, August 2022-Dec 2023 | GPA: 3.82/4.0&lt;/li>
-&lt;li>BS in Computer Science, Wuhan University, September 2018-June 2022 | GPA: 3.69/4.0&lt;/li>
+&lt;li>MS in Computer Science, Rice University, Aug 2022-Dec 2023 | GPA: 3.84/4.0&lt;/li>
+&lt;li>BS in Computer Science, Wuhan University, Sept 2018-Jun 2022 | GPA: 3.69/4.0&lt;/li>
 &lt;/ul>
 &lt;h1 id="work-experience">Work Experience&lt;/h1>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;strong>Teyvat Traveler&lt;/strong>, Genshin Impact, &lt;em>September 2021-Present&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Full Stack Engineering&lt;/strong>, Meituan, &lt;em>Feb 2024-Present&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Teyvat Traveler&lt;/strong>, Genshin Impact, &lt;em>Sept 2021-Present&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Explored the seven nations of Teyvat, including Mondstadt, Liyue, Inazuma, Sumeru and Fontaine, and solved numerous puzzles and challenges along the way.&lt;/li>
 &lt;li>Battled against powerful enemies, including the Abyss Order, Fatui Harbingers, and other dangerous foes.&lt;/li>
@@ -26,7 +29,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Android &amp;amp; Front-end Engineering Intern&lt;/strong>, Sensetime, &lt;em>September 2021-July 2022&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Android &amp;amp; Front-end Engineering Intern&lt;/strong>, Sensetime, &lt;em>Sept 2021-July 2022&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Led a mobile meeting room appointment system using &lt;strong>React&lt;/strong> and &lt;strong>TypeScript&lt;/strong>, becoming a widely adopted enterprise solution with 2 clients.&lt;/li>
 &lt;li>Developed an Elevator Visualization Platform and Big Intelligent Screen using &lt;strong>Kotlin&lt;/strong>, improving elevator and meeting room status accessibility.&lt;/li>
@@ -35,14 +38,14 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Computer Graphics Engineering Intern&lt;/strong>, CBIM, &lt;em>August 2021-September 2021&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Computer Graphics Engineering Intern&lt;/strong>, CBIM, &lt;em>Aug 2021-Sept 2021&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Developed water graphics and bank features using &lt;strong>Vulkan&lt;/strong> and &lt;strong>C++&lt;/strong> for architecture designers, undergoing successful beta testing with 10K users.&lt;/li>
 &lt;li>Achieved real-time water information synchronization with the web development team.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Front-end Engineering Intern&lt;/strong>, CBIM, &lt;em>December 2020-January 2021&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Front-end Engineering Intern&lt;/strong>, CBIM, &lt;em>Dec 2020-Jan 2021&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Created a website using &lt;strong>Vue.js&lt;/strong> and &lt;strong>Vue-Router&lt;/strong> for REST API interaction.&lt;/li>
 &lt;li>Designed the website layout using &lt;strong>ElementUI&lt;/strong> to display widgets and visualized project information dynamically using &lt;strong>LayerUI.js&lt;/strong>.&lt;/li>
@@ -52,14 +55,14 @@
 &lt;h1 id="research-experience">Research Experience&lt;/h1>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;strong>Researcher&lt;/strong>, SYSU (Advised by Ruixuan Wang), &lt;em>June 2021-November 2021&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Researcher&lt;/strong>, SYSU (Advised by Ruixuan Wang), &lt;em>Jun 2021-Nov 2021&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Investigated feature map smooth mapping with attention information.&lt;/li>
 &lt;li>Created visual representations of model architecture and experimental results.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Researcher&lt;/strong>, WHU IR LAB (Advised by Chenliang Li), &lt;em>September 2020-June 2021&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Researcher&lt;/strong>, WHU IR LAB (Advised by Chenliang Li), &lt;em>Sept 2020-Jun 2021&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Enhanced model information retrieval in SQuAD 2.0 by integrating named entity information into the Embedding Layer.&lt;/li>
 &lt;li>Improved model performance by exploring cross-view training, assembling the origin model and summary model.&lt;/li>
@@ -70,7 +73,7 @@
 &lt;/ul>
 &lt;h1 id="projects">Projects&lt;/h1>
 &lt;h2 id="instant--social-media-platform">Instant | Social Media Platform&lt;/h2>
-&lt;p>Golang, MongoDB, Gin, TypeScript, Vue &lt;em>March 2022-Present&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/instant-go" target="_blank" rel="noopener"
+&lt;p>Golang, MongoDB, Gin, TypeScript, NextJS &lt;em>Mar 2022-Present&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/instant-go" target="_blank" rel="noopener"
 >github/instant-go&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Developed a &lt;strong>Fan Out on Write&lt;/strong> inbox in &lt;strong>Go&lt;/strong> and &lt;strong>PostgreSQL&lt;/strong>, reducing data retrieval time by over 3 times compared to Fan Out on Read.&lt;/li>
@@ -79,10 +82,10 @@
 &lt;li>Designed a high-performance web interface with &lt;strong>NextJS&lt;/strong>, &lt;strong>TypeScript&lt;/strong>, and &lt;strong>React&lt;/strong>, achieving a 98 Lighthouse performance score.&lt;/li>
 &lt;/ul>
 &lt;h2 id="agentcraft--ai-native-app-management-system-using-llm">AgentCraft | AI-Native App Management System Using LLM&lt;/h2>
-&lt;p>Python, FastAPI, PostgreSQL, Redis, _May 2023- August 2023, &lt;a class="link" href="https://github.com/devsapp/agentcraft" target="_blank" rel="noopener"
+&lt;p>Python, FastAPI, PostgreSQL, Redis, _May 2023- Aug 2023, &lt;a class="link" href="https://github.com/devsapp/agentcraft" target="_blank" rel="noopener"
 >github/agentcraft&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>Designed and deployed a system with 1K daily API calls on Alibaba Cloud (August 2023).&lt;/li>
+&lt;li>Designed and deployed a system with 1K daily API calls on Alibaba Cloud (Aug 2023).&lt;/li>
 &lt;li>Enabled support for multiple LLMs, including native OpenAI API and Huggingface Models with &lt;a class="link" href="https://github.com/devsapp/fc-llm-image-source" target="_blank" rel="noopener"
 >adapters&lt;/a>.&lt;/li>
 &lt;li>Implemented text segmentation and vectorization using a &lt;a class="link" href="https://github.com/devsapp/fc-embedding-api" target="_blank" rel="noopener"
@@ -90,7 +93,7 @@
 &lt;li>Developed a distributed LLM cache and history system using &lt;strong>Redis&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;h2 id="macos-in-typescript--web-page-with-macos-interface">macOS in TypeScript | Web Page with MacOS Interface&lt;/h2>
-&lt;p>React, SCSS, Animation, Typescript, &lt;em>November 2021-May 2022&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/macos-in-typescript" target="_blank" rel="noopener"
+&lt;p>React, SCSS, Animation, Typescript, &lt;em>Nov 2021-May 2022&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/macos-in-typescript" target="_blank" rel="noopener"
 >github/macos-in-typescript&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Utilized &lt;strong>React.js&lt;/strong> for efficient state management and lazy initialization to enhance performance.&lt;/li>
@@ -99,7 +102,7 @@
 &lt;li>Achieved outstanding Chrome Lighthouse scores: 95 for Performance, 100 for Accessibility, 100 for Best Practices, and 100 for SEO.&lt;/li>
 &lt;/ul>
 &lt;h2 id="cydrive-windows-client--cloud-drive-windows-client">CyDrive Windows Client | Cloud Drive Windows Client&lt;/h2>
-&lt;p>C#, .Net Framework, WPF, XAML, &lt;em>September 2021-November 2021&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/CyDrive-windows" target="_blank" rel="noopener"
+&lt;p>C#, .Net Framework, WPF, XAML, &lt;em>Sept 2021-Nov 2021&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/CyDrive-windows" target="_blank" rel="noopener"
 >github/CyDrive-windows&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Created page layouts and navigation logic for the application.&lt;/li>
@@ -107,20 +110,20 @@
 &lt;li>Developed essential features such as user authentication, file management (new/delete/rename), multi-select, and file operations (upload/download).&lt;/li>
 &lt;/ul>
 &lt;h2 id="ai-debater-classification-model--text-classification-model">AI-Debater Classification Model | Text Classification Model&lt;/h2>
-&lt;p>Python, Pytorch, Bert, Transformers, &lt;em>June 2021&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/AI-Debater" target="_blank" rel="noopener"
+&lt;p>Python, Pytorch, Bert, Transformers, &lt;em>Jun 2021&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/AI-Debater" target="_blank" rel="noopener"
 >github/AI-Debater&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Employed adapted contrast learning and smoothed dropout techniques to enhance Bert and its variants.&lt;/li>
 &lt;li>Achieved significant performance improvements, raising accuracy from 78% to 92% in the original baseline test and from 74% to 80.3% in the test dataset setting.&lt;/li>
 &lt;/ul>
 &lt;h2 id="dropout-against-deep-leakage-from-gradients--research">Dropout Against Deep Leakage from Gradients | Research&lt;/h2>
-&lt;p>Python, Pytorch, &lt;em>June 2021&lt;/em>&lt;/p>
+&lt;p>Python, Pytorch, &lt;em>Jun 2021&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Re-implemented Deep Leakage from Gradients (NeurIPS2019) and assessed data leakage issues on standard datasets.&lt;/li>
 &lt;li>Innovated methods to thwart the detection and recovery of raw data, successfully utilizing Dropout to prevent Deep Leakage from Gradients from converging to original local data with minimal model performance loss.&lt;/li>
 &lt;/ul>
 &lt;h2 id="cminus-compiler--subset-of-c-compiler">Cminus Compiler | Subset of &lt;em>C&lt;/em> Compiler&lt;/h2>
-&lt;p>C, Flex, Linux, Bison, Cmake, Linux, &lt;em>March 2021-June 2021&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/CMINUS-Compiler" target="_blank" rel="noopener"
+&lt;p>C, Flex, Linux, Bison, Cmake, Linux, &lt;em>Mar 2021-Jun 2021&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/CMINUS-Compiler" target="_blank" rel="noopener"
 >github/CMINUS-Compiler&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Created rules and regular expressions for lexical and syntax analysis, generating Abstract Syntax Trees and computing expressions.&lt;/li>
@@ -128,25 +131,25 @@
 &lt;li>Developed regex patterns for handling scientific notation floats and binary, octal, and hexadecimal integers.&lt;/li>
 &lt;/ul>
 &lt;h2 id="feature-cross-recommender-with-attention--research">Feature Cross Recommender with Attention | Research&lt;/h2>
-&lt;p>Python, Tensorflow, DCN, &lt;em>March 2021&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/Recommender-with-Attention%29" >github/Recommender-with-Attention&lt;/a>&lt;/p>
+&lt;p>Python, Tensorflow, DCN, &lt;em>Mar 2021&lt;/em>, &lt;a class="link" href="%28https://github.com/ZYChimne/Recommender-with-Attention%29" >github/Recommender-with-Attention&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Re-implemented Deep &amp;amp; Cross Network on MovieLens, following the approach from Deep &amp;amp; Cross Network for Ad Click Predictions (KDD2017).&lt;/li>
 &lt;li>Enhanced model performance by optimizing feature smoothing and adapting matrix production, reducing parameters, inference time, and RMSE by 0.004.&lt;/li>
 &lt;/ul>
 &lt;h2 id="bert-in-pytorch--research">Bert in Pytorch | Research&lt;/h2>
-&lt;p>Python, Pytorch, Transformers, Bert, &lt;em>March 2021&lt;/em>&lt;/p>
+&lt;p>Python, Pytorch, Transformers, Bert, &lt;em>Mar 2021&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Developed a versatile Bidirectional Encoder Representations from Transformers (BERT) model in PyTorch, supporting tasks such as masked language modeling and question answering.&lt;/li>
 &lt;/ul>
 &lt;h2 id="multi-elevator-control-system--embedding-system">Multi-elevator Control System | Embedding System&lt;/h2>
-&lt;p>C, AT89C52, Keil, Proteus, &lt;em>September 2020-December 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/MultiElevator" target="_blank" rel="noopener"
+&lt;p>C, AT89C52, Keil, Proteus, &lt;em>Sept 2020-Dec 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/MultiElevator" target="_blank" rel="noopener"
 >github/MultiElevator&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Created a circuit blueprint for connecting AT89C52 microcontroller with various devices.&lt;/li>
 &lt;li>Designed a multi-elevator control system for efficient elevator assignment in a four-floor building, optimizing passenger flow.&lt;/li>
 &lt;/ul>
 &lt;h2 id="question-answering-system--rest-api">Question Answering System | REST API&lt;/h2>
-&lt;p>Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, &lt;em>September 2020-December 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/MRCWeb" target="_blank" rel="noopener"
+&lt;p>Full-stack, Java, SpringBoot, Bootstrap, Thymeleaf, JPA, &lt;em>Sept 2020-Dec 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/MRCWeb" target="_blank" rel="noopener"
 >github/MRCWeb&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Created an MVC application using SpringBoot, connecting to a MySQL database through JPA.&lt;/li>
@@ -154,7 +157,7 @@
 &lt;li>Developed a Bert-based information retrieval model using Python and Transformers.&lt;/li>
 &lt;/ul>
 &lt;h2 id="mips-multi-cycle-central-processing-unit--cpu">MIPS Multi-cycle Central Processing Unit | CPU&lt;/h2>
-&lt;p>Verilog HDL, Modelsim, &lt;em>March 2020-June 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/CPU-implement" target="_blank" rel="noopener"
+&lt;p>Verilog HDL, Modelsim, &lt;em>Mar 2020-Jun 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/CPU-implement" target="_blank" rel="noopener"
 >github/CPU-implement&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Constructed a CPU supporting 26 MIPS instructions (e.g., add, sub, sw, lw, beq, bne, j, jr, jal).&lt;/li>
@@ -163,25 +166,25 @@
 &lt;li>Developed a hazard unit to ensure proper execution of all instructions by flushing or stalling the pipeline as needed.&lt;/li>
 &lt;/ul>
 &lt;h2 id="im-hungry--restaurant-order-placement-application">I&amp;rsquo;m Hungry | Restaurant Order Placement Application&lt;/h2>
-&lt;p>Swift, iOS, &lt;em>March 2020-June 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/I-m-Hungry" target="_blank" rel="noopener"
+&lt;p>Swift, iOS, &lt;em>Mar 2020-Jun 2020&lt;/em>, &lt;a class="link" href="https://github.com/ZYChimne/I-m-Hungry" target="_blank" rel="noopener"
 >github/I-m-Hungry&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Used SQLite for data management.&lt;/li>
 &lt;/ul>
 &lt;h2 id="ftp-client">FTP Client&lt;/h2>
-&lt;p>C++, Qt, Websocket, Multithread, &lt;em>July 2019-August 2019&lt;/em>&lt;/p>
+&lt;p>C++, Qt, Websocket, Multithread, &lt;em>July 2019-Aug 2019&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Created a client user interface with thread management for UI safety.&lt;/li>
 &lt;li>Designed a download function with WebSocket support, enabling pause and resume capabilities.&lt;/li>
 &lt;/ul>
 &lt;h2 id="draw-and-guess--android-application">Draw and Guess | Android Application&lt;/h2>
-&lt;p>Kotlin, Android, &lt;em>January 2019-February 2019&lt;/em>&lt;/p>
+&lt;p>Kotlin, Android, &lt;em>Jan 2019-Feb 2019&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Applied MVVM design pattern with LiveData and Data Binding for data updates.&lt;/li>
 &lt;li>Utilized ViewModelFactory to construct ViewModels with parameters.&lt;/li>
 &lt;/ul>
 &lt;h2 id="convolution-neural-network-in-numpy">Convolution Neural Network in Numpy&lt;/h2>
-&lt;p>Python, Numpy, &lt;em>September 2018-December 2018&lt;/em>&lt;/p>
+&lt;p>Python, Numpy, &lt;em>Sept 2018-Dec 2018&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Created a Convolutional Neural Network (CNN) using Numpy for matrix operations and backpropagation.&lt;/li>
 &lt;li>Attained a 97% accuracy on the MNIST Dataset.&lt;/li>
@@ -207,5 +210,5 @@
 &lt;/ul>
 &lt;h1 id="experiences">Experiences&lt;/h1>
 &lt;ul>
-&lt;li>Cambridge Winter Program, &lt;em>January 2019-February 2019&lt;/em>&lt;/li>
+&lt;li>Cambridge Winter Program, &lt;em>Jan 2019-Feb 2019&lt;/em>&lt;/li>
 &lt;/ul></description></item><item><title>Search</title><link>https://zychimne.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zychimne.github.io/search/</guid><description/></item></channel></rss>
