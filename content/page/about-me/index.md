@@ -17,7 +17,7 @@ menu:
 
 # Work Experience
 
-- **Full Stack Engineering**, Meituan, _Feb 2024-Present_
+- **Full Stack Engineer**, Meituan, _Feb 2024-Present_
 
 - **Teyvat Traveler**, Genshin Impact, _Sept 2021-Present_
 
