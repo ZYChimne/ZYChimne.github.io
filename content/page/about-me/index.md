@@ -1,8 +1,8 @@
 ---
-title: "About Me"
-description: "Curriculum Vitae"
+title: 'About Me'
+description: 'Curriculum Vitae'
 # date: "2022-05-10"
-slug: "about-me"
+slug: 'about-me'
 menu:
   main:
     weight: -90
@@ -25,6 +25,13 @@ menu:
   - Completed numerous quests and side missions, helping people and solving problems all over Teyvat.
   - Learned about the history and culture of each nation, and made many new friends along the way.
 
+- **Web Developer**, Meituan, _February 2024-Present_
+
+  - Develop and maintain product pages using WeChat Mini Program and TypeScript, implementing features that enhance user interaction and conversion rates.
+  - Optimize frontend performance through unifying render process, reducing initial load time by 50%.
+  - Conduct A/B testing and analyze user behavior metrics to drive data-informed UI/UX improvements.
+  - Maintain and improve code quality through TypeScript type safety, unit testing, and code reviews.
+
 - **Full Stack Engineering Intern**, Alibaba Cloud, _May 2023-Aug 2023_
 
   - Designed and developed an AI Question Answering System using LLMs, **Redis**, **PostgreSQL**, and **GRPC**, deployed in Apache RocketMQ Chinese Forum and Alibaba Cloud Developer Forum.
@@ -38,7 +45,7 @@ menu:
   - Developed an Elevator Visualization Platform and Big Intelligent Screen using **Kotlin**, improving elevator and meeting room status accessibility.
   - Introduced a logging module in Pyramid SDK, enabling online device log viewing and persistent storage, reducing reliance on Android Debug Bridge.
   - Contributed to the design of an authorization module in Pyramid SDK using **Java**, enhancing data security by limiting access to authorized devices.
-  
+
 - **Computer Graphics Engineering Intern**, CBIM, _August 2021-September 2021_
 
   - Developed water graphics and bank features using **Vulkan** and **C++** for architecture designers, undergoing successful beta testing with 10K users.
@@ -51,6 +58,7 @@ menu:
 # Research Experience
 
 - **Researcher**, SYSU (Advised by Ruixuan Wang), _June 2021-November 2021_
+
   - Investigated feature map smooth mapping with attention information.
   - Created visual representations of model architecture and experimental results.
 
@@ -73,7 +81,7 @@ Golang, MongoDB, Gin, TypeScript, Vue _March 2022-Present_, [github/instant-go](
 
 ## AgentCraft | AI-Native App Management System Using LLM
 
-Python, FastAPI, PostgreSQL, Redis, _May 2023- August 2023, [github/agentcraft](https://github.com/devsapp/agentcraft)
+Python, FastAPI, PostgreSQL, Redis, \_May 2023- August 2023, [github/agentcraft](https://github.com/devsapp/agentcraft)
 
 - Designed and deployed a system with 1K daily API calls on Alibaba Cloud (August 2023).
 - Enabled support for multiple LLMs, including native OpenAI API and Huggingface Models with [adapters](https://github.com/devsapp/fc-llm-image-source).
@@ -111,7 +119,7 @@ Python, Pytorch, _June 2021_
 - Re-implemented Deep Leakage from Gradients (NeurIPS2019) and assessed data leakage issues on standard datasets.
 - Innovated methods to thwart the detection and recovery of raw data, successfully utilizing Dropout to prevent Deep Leakage from Gradients from converging to original local data with minimal model performance loss.
 
-## Cminus Compiler | Subset of *C* Compiler
+## Cminus Compiler | Subset of _C_ Compiler
 
 C, Flex, Linux, Bison, Cmake, Linux, _March 2021-June 2021_, [github/CMINUS-Compiler](https://github.com/ZYChimne/CMINUS-Compiler)
 
